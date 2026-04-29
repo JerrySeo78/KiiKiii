@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>KiiiKiii House</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --cream:     #FFF8F0;
+      --sand:      #F0E0C0;
+      --coral:     #FF6B35;
+      --tgreen:    #2D6A4F;
+      --ocean:     #0096C7;
+      --gold:      #F4A800;
+      --text-dk:   #2C1810;
+      --text-md:   #8B6355;
+      --heart:     #FF4D6D;
+      --header-h:  56px;
+      --nav-h:     72px;
+      --font-serif: 'Playfair Display', serif;
+      --font-sans:  'Nunito', sans-serif;
+    }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden;
+      background: #E8D8C0;
+      font-family: 'Nunito', sans-serif;
+      color: var(--text-dk);
+      -webkit-tap-highlight-color: transparent;
+    }
+    #app {
+      width: 100%; max-width: 390px; height: 100dvh;
+      margin: 0 auto;
+      background: var(--cream);
+      display: flex; flex-direction: column;
+      position: relative; overflow: hidden;
+    }
+
+    /* ── Header ── */
+    #kk-header {
+      height: var(--header-h); flex-shrink: 0;
+      background: #FFFFFF;
+      border-bottom: 1px solid #E8E0D8;
+      display: flex; align-items: center; padding: 0 16px; gap: 12px;
+      position: relative; z-index: 10;
+    }
+    #kk-header .logo-wrap {
+      display: flex; align-items: center; gap: 8px; flex-shrink: 0;
+    }
+    #kk-header .logo-bar {
+      width: 3px; height: 16px; background: #FF6B35; border-radius: 2px;
+    }
+    #kk-header .logo {
+      font-family: var(--font-serif);
+      font-weight: 700; font-size: 20px; letter-spacing: 0.5px;
+      color: #1A1A1A; flex-shrink: 0;
+    }
+    #kk-header .intimacy-wrap { flex: 1; padding: 0 8px; font-family: var(--font-sans); }
+    #kk-header .intimacy-label {
+      display: flex; align-items: center; gap: 6px; margin-bottom: 3px;
+    }
+    #kk-header .lv-badge {
+      font-family: var(--font-sans);
+      font-size: 10px; font-weight: 800;
+      color: #fff; background: var(--tgreen);
+      padding: 1px 6px; border-radius: 99px;
+    }
+    #kk-header .lv-sub {
+      font-family: var(--font-sans);
+      font-size: 9px; color: var(--text-md);
+    }
+    #kk-header .xp-bar-bg {
+      height: 5px; background: rgba(255,107,53,0.15); border-radius: 99px; overflow: hidden;
+    }
+    #kk-header .xp-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--coral) 0%, var(--gold) 100%);
+      border-radius: 99px; transition: width 0.6s ease;
+    }
+    #kk-header .resources {
+      display: flex; gap: 10px; align-items: center; flex-shrink: 0;
+    }
+    #kk-header .res { display: flex; align-items: center; gap: 4px; }
+    #kk-header .res-val {
+      font-family: var(--font-sans);
+      font-size: 12px; font-weight: 700;
+    }
+
+    /* ── Canvas area ── */
+    #game-container {
+      flex: 1; overflow: hidden; position: relative;
+      min-height: 0;
+    }
+    #game-container canvas {
+      display: block !important;
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: contain;
+    }
+
+    /* ── NavBar ── */
+    #kk-nav {
+      height: var(--nav-h); flex-shrink: 0;
+      background: #FFFFFF;
+      border-top: 1px solid #E8E0D8;
+      display: flex; align-items: center; justify-content: space-around;
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+      position: relative; z-index: 10;
+    }
+    .nav-btn {
+      display: flex; flex-direction: column; align-items: center; gap: 3px;
+      padding: 6px 12px; background: transparent; border: none; cursor: pointer;
+      border-radius: 12px; min-width: 48px; min-height: 48px; justify-content: center;
+      transition: all 0.2s;
+      font-family: var(--font-sans);
+      position: relative;
+    }
+    .nav-btn.center {
+      background: #1A1A1A;
+      border-radius: 20px; transform: translateY(-10px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+      min-width: 56px; min-height: 56px;
+    }
+    .nav-btn .nav-emoji { font-size: 20px; }
+    .nav-btn.center .nav-emoji { font-size: 22px; filter: grayscale(1) brightness(10); }
+    .nav-btn .nav-label {
+      font-family: var(--font-sans);
+      font-size: 9px; font-weight: 700; letter-spacing: 1.5px;
+      color: #C0B0A8; transition: color 0.2s; text-transform: uppercase;
+    }
+    .nav-btn.center .nav-label { color: rgba(255,255,255,0.8); }
+    .nav-btn.active .nav-label { color: #1A1A1A; }
+    .nav-dot {
+      position: absolute; bottom: 6px;
+      width: 4px; height: 4px; border-radius: 50%;
+      background: #FF6B35; display: none;
+    }
+    .nav-btn.active .nav-dot { display: block; }
+    .nav-btn.center .nav-dot { display: none; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50%       { transform: scale(1.06); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-8px); }
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+  <!-- Header -->
+  <header id="kk-header">
+    <div class="logo-wrap">
+      <div class="logo-bar"></div>
+      <div class="logo">KiiiKiii</div>
+    </div>
+    <div class="intimacy-wrap">
+      <div class="intimacy-label">
+        <span class="lv-badge" id="lv-text">Lv.1</span>
+        <span class="lv-sub">친밀도</span>
+      </div>
+      <div class="xp-bar-bg">
+        <div class="xp-bar-fill" id="xp-fill" style="width:0%"></div>
+      </div>
+    </div>
+    <div class="resources">
+      <div class="res">
+        <span style="font-size:16px">❤️</span>
+        <span class="res-val" id="heart-val" style="color:var(--heart)">5</span>
+      </div>
+      <div class="res">
+        <span style="font-size:16px">🎫</span>
+        <span class="res-val" id="raffle-val" style="color:var(--gold)">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Phaser canvas -->
+  <div id="game-container"></div>
+
+  <!-- NavBar (4탭: 오늘·게임·홈(center)·탐색 → 홈 center 기준 좌우 배치) -->
+  <nav id="kk-nav">
+    <button class="nav-btn" data-scene="TodayScene">
+      <span class="nav-emoji">📅</span>
+      <span class="nav-label">Today</span>
+      <div class="nav-dot"></div>
+    </button>
+    <button class="nav-btn" data-scene="MergeScene">
+      <span class="nav-emoji">🎮</span>
+      <span class="nav-label">Game</span>
+      <div class="nav-dot"></div>
+    </button>
+    <button class="nav-btn center" data-scene="HomeScene">
+      <span class="nav-emoji">🏠</span>
+      <span class="nav-label">Home</span>
+    </button>
+    <button class="nav-btn" data-scene="ExploreScene">
+      <span class="nav-emoji">🔍</span>
+      <span class="nav-label">Explore</span>
+      <div class="nav-dot"></div>
+    </button>
+  </nav>
+</div>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

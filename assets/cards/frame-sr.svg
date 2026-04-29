@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 220" width="160" height="220">
+  <defs>
+    <linearGradient id="srBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a00"/>
+      <stop offset="100%" style="stop-color:#3D1A00"/>
+    </linearGradient>
+    <linearGradient id="srBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="30%" style="stop-color:#FFF0A0"/>
+      <stop offset="60%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#FFA500"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="160" height="220" rx="16" fill="url(#srBg)"/>
+  <rect x="3" y="3" width="154" height="214" rx="14" fill="none" stroke="url(#srBorder)" stroke-width="4" filter="url(#glow)"/>
+  <rect x="8" y="8" width="144" height="204" rx="10" fill="none" stroke="rgba(255,215,0,0.2)" stroke-width="1"/>
+  <!-- Corner stars -->
+  <polygon points="18,12 20,8 22,12 26,12 23,15 24,19 20,17 16,19 17,15 14,12" fill="#FFD700" opacity="0.9"/>
+  <polygon points="142,12 144,8 146,12 150,12 147,15 148,19 144,17 140,19 141,15 138,12" fill="#FFD700" opacity="0.9"/>
+  <!-- Grade badge -->
+  <rect x="8" y="8" width="30" height="20" rx="6" fill="#B8860B"/>
+  <text x="23" y="22" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#FFD700">SR</text>
+  <!-- Card content area -->
+  <rect x="16" y="36" width="128" height="128" rx="8" fill="rgba(255,215,0,0.07)"/>
+  <!-- Bottom info -->
+  <rect x="16" y="174" width="128" height="36" rx="8" fill="rgba(255,215,0,0.07)"/>
+  <!-- Bottom shimmer line -->
+  <line x1="16" y1="174" x2="144" y2="174" stroke="rgba(255,215,0,0.4)" stroke-width="1"/>
+</svg>

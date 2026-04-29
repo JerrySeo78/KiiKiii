@@ -17,3 +17,14 @@ dist/
 *.log
 .DS_Store
 _upgrade_backup/
+
+# Terminal Paste Image folder
+.cp-images/
+
+# 내부 트래킹 파일
+docs/agent-status.json
+docs/loop-tracker.json
+docs/summary-cost.json
+docs/logs/
+docs/snapshots/
+.claude/

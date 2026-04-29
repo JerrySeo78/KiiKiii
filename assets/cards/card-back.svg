@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 220" width="160" height="220">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D1B69"/>
+      <stop offset="100%" style="stop-color:#11998E"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="220" rx="16" fill="url(#cardBg)"/>
+  <rect x="8" y="8" width="144" height="204" rx="12" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <!-- Pattern -->
+  <circle cx="80" cy="110" r="50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <circle cx="80" cy="110" r="35" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <circle cx="80" cy="110" r="20" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <!-- Star center -->
+  <polygon points="80,85 86,103 105,103 90,114 96,132 80,121 64,132 70,114 55,103 74,103" fill="rgba(255,255,255,0.15)"/>
+  <!-- Logo area -->
+  <text x="80" y="38" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="900" fill="white" letter-spacing="3">KiiiKiii</text>
+  <text x="80" y="196" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" letter-spacing="2">FANDOM OS</text>
+</svg>

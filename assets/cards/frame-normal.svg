@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 220" width="160" height="220">
+  <defs>
+    <linearGradient id="normalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8E8F0"/>
+      <stop offset="100%" style="stop-color:#C8C8DC"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="220" rx="16" fill="url(#normalBg)"/>
+  <rect x="6" y="6" width="148" height="208" rx="12" fill="none" stroke="#AAAABB" stroke-width="2"/>
+  <!-- Grade badge -->
+  <rect x="8" y="8" width="44" height="20" rx="6" fill="#888899"/>
+  <text x="30" y="22" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="white">NORMAL</text>
+  <!-- Card content area -->
+  <rect x="16" y="36" width="128" height="128" rx="8" fill="rgba(0,0,0,0.06)"/>
+  <!-- Bottom info -->
+  <rect x="16" y="174" width="128" height="36" rx="8" fill="rgba(0,0,0,0.06)"/>
+</svg>

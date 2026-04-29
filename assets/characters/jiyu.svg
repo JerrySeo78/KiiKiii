@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" width="200" height="320">
+  <!-- Body -->
+  <rect x="60" y="140" width="80" height="120" rx="10" fill="#C5F5D5"/>
+  <!-- Legs -->
+  <rect x="70" y="240" width="25" height="50" rx="8" fill="#E8C5D4"/>
+  <rect x="105" y="240" width="25" height="50" rx="8" fill="#E8C5D4"/>
+  <!-- Arms -->
+  <rect x="25" y="145" width="35" height="18" rx="9" fill="#E8C5D4"/>
+  <rect x="140" y="145" width="35" height="18" rx="9" fill="#E8C5D4"/>
+  <!-- Neck -->
+  <rect x="88" y="118" width="24" height="28" rx="6" fill="#E8C5D4"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="100" rx="48" ry="50" fill="#F2D4C2"/>
+  <!-- Hair - short bob -->
+  <ellipse cx="100" cy="65" rx="48" ry="25" fill="#2C2C2C"/>
+  <ellipse cx="56" cy="95" rx="12" ry="22" fill="#2C2C2C"/>
+  <ellipse cx="144" cy="95" rx="12" ry="22" fill="#2C2C2C"/>
+  <rect x="56" y="75" width="88" height="25" fill="#2C2C2C"/>
+  <!-- Eyes -->
+  <ellipse cx="84" cy="100" rx="8" ry="9" fill="white"/>
+  <ellipse cx="116" cy="100" rx="8" ry="9" fill="white"/>
+  <ellipse cx="86" cy="101" rx="5" ry="6" fill="#2C7A4B"/>
+  <ellipse cx="118" cy="101" rx="5" ry="6" fill="#2C7A4B"/>
+  <circle cx="87" cy="99" r="2" fill="white"/>
+  <circle cx="119" cy="99" r="2" fill="white"/>
+  <!-- Blush -->
+  <ellipse cx="74" cy="112" rx="9" ry="5" fill="#FFB3C6" opacity="0.6"/>
+  <ellipse cx="126" cy="112" rx="9" ry="5" fill="#FFB3C6" opacity="0.6"/>
+  <!-- Mouth -->
+  <path d="M 93 118 Q 100 123 107 118" stroke="#D4737A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Name tag -->
+  <rect x="60" y="158" width="80" height="22" rx="6" fill="white" opacity="0.7"/>
+  <text x="100" y="174" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2C7A4B">JIYU</text>
+</svg>
