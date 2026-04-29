@@ -32,7 +32,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: npm run build && cp -r assets dist/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
