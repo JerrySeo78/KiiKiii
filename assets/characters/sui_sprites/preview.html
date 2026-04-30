@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Sui 스프라이트 애니메이션 테스트</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #f5f0eb;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 24px;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    color: #555;
+    font-size: 14px;
+  }
+  .controls input[type=range] { width: 120px; accent-color: #e87d7d; }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .card {
+    background: white;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+  }
+  .card h3 {
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+  }
+  .frame-box {
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    image-rendering: pixelated;
+  }
+  .badge {
+    font-size: 11px;
+    background: #ffe5e5;
+    color: #c0605a;
+    border-radius: 20px;
+    padding: 2px 10px;
+  }
+  .sheet-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .sheet-thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background: white;
+  }
+  .sheet-label {
+    font-size: 10px;
+    color: #aaa;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<h1>🎭 Sui 스프라이트 애니메이션 프리뷰</h1>
+
+<div class="controls">
+  <label>FPS: <span id="fps-val">8</span></label>
+  <input type="range" id="fps" min="2" max="24" value="8">
+  <button onclick="toggleAll()" style="padding:4px 14px;border-radius:8px;border:1px solid #ddd;cursor:pointer;background:white;">⏸ 일시정지</button>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<script>
+const ANIMS = [
+  { id: 'idle',          name: '아이들',           file: 'sui_idle_2f.png' },
+  { id: 'walk_front',    name: '앞으로 걸어오기',   file: 'sui_walk_front_2f.png' },
+  { id: 'back_idle',     name: '뒷모습 서있기',     file: 'sui_back_idle_2f.png' },
+  { id: 'back_walk_up',  name: '뒷모습 위로 걷기',  file: 'sui_back_walk_up_2f.png' },
+  { id: 'surprised',     name: '깜짝 놀람',         file: 'sui_surprised_2f.png' },
+]
+
+let fps = 8
+let paused = false
+const timers = []
+
+function toggleAll() {
+  paused = !paused
+  document.querySelector('button').textContent = paused ? '▶ 재생' : '⏸ 일시정지'
+}
+
+document.getElementById('fps').addEventListener('input', e => {
+  fps = +e.target.value
+  document.getElementById('fps-val').textContent = fps
+})
+
+function buildCard(anim) {
+  const card = document.createElement('div')
+  card.className = 'card'
+
+  const title = document.createElement('h3')
+  title.textContent = anim.name
+  card.appendChild(title)
+
+  const frameBox = document.createElement('div')
+  frameBox.className = 'frame-box'
+
+  const canvas = document.createElement('canvas')
+  canvas.width = 160
+  canvas.height = 160
+  frameBox.appendChild(canvas)
+  card.appendChild(frameBox)
+
+  const badge = document.createElement('div')
+  badge.className = 'badge'
+  badge.textContent = '로딩 중...'
+  card.appendChild(badge)
+
+  // 원본 시트 썸네일
+  const sheetRow = document.createElement('div')
+  sheetRow.className = 'sheet-row'
+  const img = document.createElement('img')
+  img.className = 'sheet-thumb'
+  img.src = anim.file
+  const sheetLabel = document.createElement('div')
+  sheetLabel.className = 'sheet-label'
+  sheetLabel.textContent = '원본 시트'
+  const col = document.createElement('div')
+  col.style.display = 'flex'
+  col.style.flexDirection = 'column'
+  col.style.alignItems = 'center'
+  col.style.gap = '2px'
+  col.appendChild(img)
+  col.appendChild(sheetLabel)
+  sheetRow.appendChild(col)
+  card.appendChild(sheetRow)
+
+  // 이미지 로드 후 애니메이션
+  const image = new Image()
+  image.onload = () => {
+    const frameW = image.naturalWidth / 2
+    const frameH = image.naturalHeight
+    const ctx = canvas.getContext('2d')
+    let frame = 0
+
+    badge.textContent = `${frameW}×${frameH} | 2프레임`
+
+    function draw() {
+      ctx.clearRect(0, 0, 160, 160)
+      // 캔버스에 맞게 스케일
+      const scale = Math.min(160 / frameW, 160 / frameH)
+      const dw = frameW * scale
+      const dh = frameH * scale
+      const dx = (160 - dw) / 2
+      const dy = (160 - dh) / 2
+      ctx.drawImage(image, frame * frameW, 0, frameW, frameH, dx, dy, dw, dh)
+    }
+
+    draw()
+
+    let last = 0
+    function tick(ts) {
+      if (!paused && ts - last > 1000 / fps) {
+        frame = (frame + 1) % 2
+        draw()
+        last = ts
+      }
+      requestAnimationFrame(tick)
+    }
+    requestAnimationFrame(tick)
+  }
+
+  image.onerror = () => {
+    badge.textContent = '파일 없음'
+    badge.style.background = '#eee'
+    badge.style.color = '#aaa'
+  }
+
+  image.src = anim.file
+  return card
+}
+
+const grid = document.getElementById('grid')
+ANIMS.forEach(anim => grid.appendChild(buildCard(anim)))
+</script>
+</body>
+</html>
