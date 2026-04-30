@@ -21,6 +21,15 @@ _upgrade_backup/
 # Terminal Paste Image folder
 .cp-images/
 
+# AI 생성 에셋 (188MB, 파이프라인으로 재생성 가능)
+assets/extracted/
+
+# 스프라이트 임시 작업 폴더
+assets/characters/sui_sprites/_temp_walk_side/
+
+# 생성 로그
+docs/generation-log.txt
+
 # 내부 트래킹 파일
 docs/agent-status.json
 docs/loop-tracker.json
