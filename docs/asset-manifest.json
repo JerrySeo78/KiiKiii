@@ -1,0 +1,3033 @@
+{
+  "generated_at": "2026-04-30T03:25:24.667Z",
+  "total": 335,
+  "by_category": {
+    "ui_frame": 52,
+    "icon": 82,
+    "ui_button": 70,
+    "character": 26,
+    "card_frame": 11,
+    "background": 8,
+    "text_element": 3,
+    "deco_item": 64,
+    "text": 5,
+    "merge_tile": 14
+  },
+  "assets": [
+    {
+      "id": "ui_level_badge_friendship",
+      "category": "ui_frame",
+      "name_kr": "Lv.1 친밀도",
+      "description_en": "Small rectangular badge with rounded corners. It has a vibrant green background with 'Lv.1' in clear white text. To its right is the Korean text '친밀도' (Chinmil-do) in black, followed by a thin, light gray horizontal progress bar with a very short filled segment, indicating current progress.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "icon_currency_heart",
+      "category": "icon",
+      "name_kr": "하트",
+      "description_en": "A small, bright red heart icon, stylized with a slight gloss or highlight on its surface to give it a soft, rounded appearance.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "icon_currency_coin",
+      "category": "icon",
+      "name_kr": "코인",
+      "description_en": "A small, yellow-gold coin icon, depicted in profile to show its thickness. It features a subtle shine and a simplistic design, resembling a standard game currency icon.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "ui_button_back_home",
+      "category": "ui_button",
+      "name_kr": "뒤로가기 홈",
+      "description_en": "A left-pointing arrow icon in a light orange-red color, combined with the Korean text '홈' (Hom) in the same color. This element functions as a back button leading to the home screen.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "ui_button_decorate",
+      "category": "ui_button",
+      "name_kr": "꾸미기",
+      "description_en": "The Korean text '꾸미기' (Kkumigi) in a light orange-red color, followed by a small, stylized pencil icon in the same color, visually indicating an edit or decoration function.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "character_chibi_girl",
+      "category": "character",
+      "name_kr": "치비 캐릭터",
+      "description_en": "A cute, stylized chibi girl character with fair skin, large expressive dark brown eyes, and long, wavy black hair with soft bangs. She is wearing a simple, short-sleeved red dress with a crisp white collar and small black Mary Jane shoes. She stands with a gentle expression and her hands clasped lightly in front of her.",
+      "priority": "P0",
+      "bg_color": "#F9F3EC",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "ui_button_navigation_home_active",
+      "category": "ui_button",
+      "name_kr": "홈 버튼",
+      "description_en": "A prominent circular button with a solid black background, containing a simple, clean white house icon in its center. This button indicates the currently active navigation state in the bottom bar.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "app_logo_kiii_kiii_top_bar",
+      "category": "icon",
+      "name_kr": "키키키 로고 (상단바)",
+      "description_en": "KiiiKiii text logo in black, sans-serif font, suitable for a top navigation bar or header.",
+      "priority": "P0",
+      "bg_color": "white",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "level_indicator_lv1_affinity",
+      "category": "ui_frame",
+      "name_kr": "레벨 1 친밀도 표시",
+      "description_en": "Small green rounded rectangular frame containing 'Lv.1' in white text, followed by '친밀도' (Friendship/Affinity) in black text. Designed to display the current level and status.",
+      "priority": "P0",
+      "bg_color": "white",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "currency_heart_icon",
+      "category": "icon",
+      "name_kr": "하트 통화 아이콘",
+      "description_en": "A vibrant red heart icon, commonly used to represent in-game currency, lives, or energy.",
+      "priority": "P0",
+      "bg_color": "white",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "currency_gold_bar_icon",
+      "category": "icon",
+      "name_kr": "골드바 통화 아이콘",
+      "description_en": "A stack of two yellow gold bars with subtle shading, typically used to represent premium in-game currency.",
+      "priority": "P0",
+      "bg_color": "white",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "app_logo_kiii_kiii_main",
+      "category": "icon",
+      "name_kr": "키키키 로고 (메인)",
+      "description_en": "KiiiKiii text logo in a bright orange color, sans-serif font, suitable for a main title or prominent branding.",
+      "priority": "P0",
+      "bg_color": "#fdf5ed",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "character_selection_card_frame",
+      "category": "card_frame",
+      "name_kr": "캐릭터 선택 카드 프레임",
+      "description_en": "Rectangular card frame with softly rounded corners, made of a light beige/cream material, designed to contain a character image and their name.",
+      "priority": "P0",
+      "bg_color": "#fdf5ed",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "button_start",
+      "category": "ui_button",
+      "name_kr": "시작하기 버튼",
+      "description_en": "A large, horizontal rectangular button with rounded corners, featuring a soft salmon/peach color. The text '시작하기' (Start) is centered in white.",
+      "priority": "P0",
+      "bg_color": "#fdf5ed",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "nav_icon_today",
+      "category": "icon",
+      "name_kr": "네비게이션 아이콘 (오늘)",
+      "description_en": "A calendar icon featuring purple-blue squares and a light purple background, placed above the grey text 'TODAY', representing a daily content section.",
+      "priority": "P0",
+      "bg_color": "white",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "nav_icon_game",
+      "category": "icon",
+      "name_kr": "네비게이션 아이콘 (게임)",
+      "description_en": "A purple game controller icon, placed above the grey text 'GAME', representing the game modes or mini-games section.",
+      "priority": "P0",
+      "bg_color": "white",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "nav_icon_home_selected",
+      "category": "icon",
+      "name_kr": "네비게이션 아이콘 (홈, 선택됨)",
+      "description_en": "A black circular button with a clean white house icon, placed above the white text 'HOME'. This asset signifies the currently selected home navigation item.",
+      "priority": "P0",
+      "bg_color": "white",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "nav_icon_explore",
+      "category": "icon",
+      "name_kr": "네비게이션 아이콘 (탐색)",
+      "description_en": "A blue magnifying glass icon, placed above the grey text 'EXPLORE', representing a discovery or search section.",
+      "priority": "P0",
+      "bg_color": "white",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "background_waikikiii_tour",
+      "category": "background",
+      "name_kr": "",
+      "description_en": "A vibrant, romantic Hawaiian beach resort scene at sunset. Features a grand hotel building with lush pink floral decorations on the left, palm trees, a calm ocean with a yacht, and a setting sun creating a warm orange and pink sky. The overall style is soft, warm, and inviting.",
+      "priority": "P0",
+      "bg_color": "",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "icon_back_arrow",
+      "category": "icon",
+      "name_kr": "",
+      "description_en": "A round, pale pink button with a light pink outline, containing a white left-pointing arrow icon. The arrow has a subtle gradient.",
+      "priority": "P0",
+      "bg_color": "#FCE0DC",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "icon_settings_cog",
+      "category": "icon",
+      "name_kr": "",
+      "description_en": "A round, pale pink button with a light pink outline, containing a white gear/cog icon. The cog has a subtle gradient.",
+      "priority": "P0",
+      "bg_color": "#FCE0DC",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "title_waikikiii_tour",
+      "category": "ui_frame",
+      "name_kr": "WAIKIIIIKII TOUR",
+      "description_en": "A large, stylized title 'WAIKIIIIKII TOUR' with a playful, slightly bubbly font. 'WAIKIIIIKII' is in shades of lavender and pink with a glittery effect. 'TOUR' is in a darker pink with a flowing script-like style, also glittery. Small white stars and pink flowers adorn the title, and a small airplane icon is integrated. It sits on a subtle translucent banner.",
+      "priority": "P0",
+      "bg_color": "#FBE0DC",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "panel_character_selection_base_frame",
+      "category": "ui_frame",
+      "name_kr": "",
+      "description_en": "A large, translucent, rectangular panel with a pink dashed border and a slightly textured, light beige background. It serves as the main container for character selection.",
+      "priority": "P0",
+      "bg_color": "#EDD0BB",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "text_main_member_selection_title",
+      "category": "text_element",
+      "name_kr": "메인 멤버 선택",
+      "description_en": "Bold Korean text '메인 멤버 선택' in a dark gray color, centered above the character selection area. It is flanked by small, sparkling pink star icons.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "text_select_member_description",
+      "category": "text_element",
+      "name_kr": "함께 여행을 시작할 멤버를 선택해 주세요",
+      "description_en": "Smaller Korean text '함께 여행을 시작할 멤버를 선택해 주세요' in a dark gray color, centered below the main title.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "character_kia_chibi",
+      "category": "character",
+      "name_kr": "키야",
+      "description_en": "A cute chibi character with long, wavy dark gray hair and big brown eyes. She wears a black mini-skirt, a white collared shirt, and a light beige hooded jacket. Her pose is a casual stand.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "card_frame_kia",
+      "category": "card_frame",
+      "name_kr": "",
+      "description_en": "A tall, rectangular card frame with rounded corners. It has a translucent lavender background and a purple-pink gradient border. A small white star icon with a purple outline is in the top right corner. The bottom contains character name, description text, and an icon.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "character_jiyu_chibi",
+      "category": "character",
+      "name_kr": "지유",
+      "description_en": "A cute chibi character with short, light brown bob hair and big brown eyes. She wears a black mini-skirt, a white collared shirt, and a black vest. Her pose is a casual stand.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "card_frame_jiyu",
+      "category": "card_frame",
+      "name_kr": "",
+      "description_en": "A tall, rectangular card frame with rounded corners. It has a translucent light pink background and a darker pink gradient border. A small white star icon with a pink outline is in the top right corner. The bottom contains character name, description text, and an icon.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "character_sui_chibi",
+      "category": "character",
+      "name_kr": "수이",
+      "description_en": "A cute chibi character with short, wavy dark black hair and big brown eyes. She wears a black mini-skirt, a white collared shirt, and a vibrant red cardigan. Her pose is a casual stand.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "card_frame_sui",
+      "category": "card_frame",
+      "name_kr": "",
+      "description_en": "A tall, rectangular card frame with rounded corners. It has a translucent light orange-pink background and a peach gradient border. Small white star icons with orange outlines are in the top right corner and bottom left. The bottom contains character name, description text, and an icon. This frame also features a 'recommended' badge on top.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "badge_recommended",
+      "category": "ui_frame",
+      "name_kr": "추천",
+      "description_en": "A small, light pink speech bubble-like badge with a dark pink crown icon on top. It has a subtle shimmer and contains the Korean text '추천' in dark pink.",
+      "priority": "P0",
+      "bg_color": "#FAD9C6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "character_haeum_chibi",
+      "category": "character",
+      "name_kr": "하음",
+      "description_en": "A cute chibi character with long, wavy brown hair and big brown eyes. She wears a black mini-skirt and a white collared shirt. Her pose is a casual stand.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "card_frame_haeum",
+      "category": "card_frame",
+      "name_kr": "",
+      "description_en": "A tall, rectangular card frame with rounded corners. It has a translucent light peach background and an orange gradient border. A small white star icon with an orange outline is in the top right corner. The bottom contains character name, description text, and an icon.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "character_iseul_chibi",
+      "category": "character",
+      "name_kr": "이슬",
+      "description_en": "A cute chibi character with medium-length brown hair tied up with bangs and big brown eyes. She wears a black mini-skirt and a white collared shirt. Her pose is a casual stand.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "card_frame_iseul",
+      "category": "card_frame",
+      "name_kr": "",
+      "description_en": "A tall, rectangular card frame with rounded corners. It has a translucent light blue background and a blue gradient border. A small white diamond icon with a blue outline is in the top right corner. The bottom contains character name, description text, and an icon.",
+      "priority": "P0",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "button_start_travel",
+      "category": "ui_button",
+      "name_kr": "여행 시작하기",
+      "description_en": "A wide, horizontal rectangular button with rounded corners and a vibrant pink gradient background, giving a glossy effect. It has a subtle white border. The text '여행 시작하기' is in white, flanked by small white star icons, and a white airplane icon on the right.",
+      "priority": "P0",
+      "bg_color": "#EDD0BB",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "button_random_select",
+      "category": "ui_button",
+      "name_kr": "랜덤 선택",
+      "description_en": "A wide, horizontal rectangular button with rounded corners and a light purple gradient background, giving a glossy effect. It has a subtle white border. The text '랜덤 선택' is in white, flanked by small white star icons, and a white dice icon on the left.",
+      "priority": "P0",
+      "bg_color": "#EDD0BB",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "deco_suitcase_pink",
+      "category": "deco_item",
+      "name_kr": "",
+      "description_en": "A vintage-style pink suitcase with rounded edges and gold accents. It has a 'WAIKIIIIKII TOUR' sticker on the front. It's positioned on the left side of the bottom decorative area.",
+      "priority": "P0",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "deco_camera_retro",
+      "category": "deco_item",
+      "name_kr": "",
+      "description_en": "A retro-style, light beige camera with silver lenses and details. It has a small floral sticker on it. It's positioned in front of the suitcase.",
+      "priority": "P0",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "deco_tickets_waikikiii_tour",
+      "category": "deco_item",
+      "name_kr": "",
+      "description_en": "Two overlapping paper airplane tickets for 'WAIKIIIIKII TOUR,' with palm tree and sunset graphics. They are light-colored with blue and orange accents.",
+      "priority": "P0",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "deco_postcards_sunset",
+      "category": "deco_item",
+      "name_kr": "",
+      "description_en": "A stack of postcards featuring a tropical sunset beach scene. The top postcard has 'Good Vibes Only' written on it with a heart.",
+      "priority": "P0",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "deco_coconut_drink",
+      "category": "deco_item",
+      "name_kr": "",
+      "description_en": "A light blue coconut drink with a pink umbrella, white flowers, and a straw.",
+      "priority": "P0",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "tropical_beach_sunset_background",
+      "category": "background",
+      "name_kr": "N/A",
+      "description_en": "A warm-toned, painterly sunset beach scene. Features silhouetted palm trees on the left, a vibrant orange and purple sky with a setting sun, calm ocean with a small sailboat in the distance, and soft pink and white plumeria flowers in the foreground. The overall mood is serene and romantic.",
+      "priority": "P0",
+      "bg_color": "N/A",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "sui_profile_picture_chibi",
+      "category": "character",
+      "name_kr": "수이",
+      "description_en": "Chibi character headshot of Sui, featuring medium-long wavy black hair with soft bangs, large expressive brown eyes, and fair skin. She wears a small red bow near her collar. She has a gentle smile. Her upper body is slightly visible, wearing a red cardigan over a white collared shirt.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "energy_icon_heart",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A soft, pastel pink heart icon with a subtle gradient and a slight sheen, representing energy or stamina.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "coin_icon_gold",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A shiny, golden coin icon with a detailed embossed star in its center, reflecting light.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "gem_icon_diamond",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A sparkling, light blue diamond icon, faceted to give a shimmering appearance, representing premium currency.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "sui_chibi_main_standing",
+      "category": "character",
+      "name_kr": "수이",
+      "description_en": "Full-body chibi character of Sui. She has long, wavy black hair with full bangs and large, expressive brown eyes. She wears a white collared shirt, a dark pleated mini-skirt, a vibrant red button-up cardigan, white ankle socks, and shiny brown Mary Jane shoes. She is depicted smiling warmly and waving with her right hand, her posture is cheerful and welcoming.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "welcome_message_frame",
+      "category": "ui_frame",
+      "name_kr": "다시 왔어요! 오늘도 수이와 여행을 떠나요",
+      "description_en": "A large, irregular white speech bubble-like frame with slightly rounded corners and a soft pink outline. It contains Korean text '다시 왔어요! 오늘도 수이와 여행을 떠나요' (Welcome back! Let's go on a trip with Sui today) and is decorated with a small pink heart, a seashell, and a cluster of pink flowers.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "daily_plan_frame",
+      "category": "ui_frame",
+      "name_kr": "오늘의 플랜",
+      "description_en": "A rectangular light pink frame with slightly rounded corners and a subtle border. The title '오늘의 플랜' (Today's Plan) is in dark text, accompanied by a small stylized brown palm tree icon.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "checkbox_completed_pink",
+      "category": "ui_button",
+      "name_kr": "N/A",
+      "description_en": "A small, square light pink checkbox with slightly rounded corners, containing a white checkmark. It indicates a completed task.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "checkbox_uncompleted_empty",
+      "category": "ui_button",
+      "name_kr": "N/A",
+      "description_en": "A small, square light pink checkbox with slightly rounded corners and a thin white border, with an empty interior. It indicates an uncompleted task.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "daily_checkin_frame",
+      "category": "ui_frame",
+      "name_kr": "데일리 체크인",
+      "description_en": "A long, horizontal, light pink rectangular frame with rounded corners and a subtle border. It features the title '데일리 체크인' (Daily Check-in) in dark text, accompanied by a small reddish-pink star icon with sparkles.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "checkin_day_marker_unclaimed",
+      "category": "ui_button",
+      "name_kr": "N/A",
+      "description_en": "A small, light pink oval-shaped button with a thin outline. It displays text like '1일차' (Day 1) in black, indicating an unclaimed daily reward.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "checkin_day_marker_claimed",
+      "category": "ui_button",
+      "name_kr": "N/A",
+      "description_en": "A small, light pink oval-shaped button with a thin outline. It displays text like '2일차' (Day 2) in black, along with a white checkmark icon, indicating a claimed daily reward.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_story_travel",
+      "category": "ui_button",
+      "name_kr": "스토리 여행",
+      "description_en": "A rectangular button with rounded corners and a soft purple gradient, decorated with small white flowers. It features a scenic image of a tropical island house at sunset over calm water, with the title '스토리 여행' (Story Travel) in white and the text '새로운 에피소드를 감상해요' (Enjoy new episodes) below. A small white right arrow icon is on the right.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_minigame",
+      "category": "ui_button",
+      "name_kr": "미니게임",
+      "description_en": "A rectangular button with rounded corners and a soft pink gradient, decorated with small white flowers. It features an illustration of a white die and a cute brown teddy bear wearing a pink flower, with the title '미니게임' (Minigame) in white and the text '귀여운 게임으로 즐거운 시간!' (Fun time with cute games!) below. A small white right arrow icon is on the right.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_photo_box",
+      "category": "ui_button",
+      "name_kr": "포토 박스",
+      "description_en": "A rectangular button with rounded corners and a soft blue gradient, decorated with small white flowers. It features an illustration of a pink vintage camera and two small photo thumbnails (one with a camera, one with a beach scene), with the title '포토 박스' (Photo Box) in white and the text '추억을 남기고 앨범을 꾸며요' (Leave memories and decorate your album) below. A small white right arrow icon is on the right.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_start_todays_trip",
+      "category": "ui_button",
+      "name_kr": "오늘의 여행 시작",
+      "description_en": "A large, prominent, glowing pink horizontal button with rounded corners and a subtle gradient. It has the bold white text '오늘의 여행 시작' (Start Today's Trip) and a stylized white airplane icon with sparkling trails to the right.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_nav_home_active",
+      "category": "ui_button",
+      "name_kr": "홈",
+      "description_en": "An active navigation button, oval-shaped with a solid light pink fill and a soft glow. It features a white stylized house icon decorated with pink flowers and sparkles, and the text '홈' (Home) in white below.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_nav_member_inactive",
+      "category": "ui_button",
+      "name_kr": "멤버",
+      "description_en": "An inactive navigation button, with a translucent light pink background. It features a white icon depicting two simplified chibi figures (one male, one female), and the text '멤버' (Member) in light pink below.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_nav_box_inactive",
+      "category": "ui_button",
+      "name_kr": "박스",
+      "description_en": "An inactive navigation button, with a translucent light pink background. It features a white icon of a simple suitcase, and the text '박스' (Box) in light pink below.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_nav_shop_inactive",
+      "category": "ui_button",
+      "name_kr": "상점",
+      "description_en": "An inactive navigation button, with a translucent light pink background. It features a white icon of a handbag decorated with small pink flowers, and the text '상점' (Shop) in light pink below.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_nav_menu_inactive",
+      "category": "ui_button",
+      "name_kr": "메뉴",
+      "description_en": "An inactive navigation button, with a translucent light pink background. It features a white hamburger menu icon (three horizontal lines), and the text '메뉴' (Menu) in light pink below.",
+      "priority": "P0",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_back_arrow",
+      "category": "ui_button",
+      "name_kr": "뒤로가기 버튼",
+      "description_en": "A light pink circular button with a dark pink left-pointing arrow icon, outlined in white.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_frame_title_member_house",
+      "category": "ui_frame",
+      "name_kr": "멤버 하우스 타이틀 프레임",
+      "description_en": "A horizontal, light pink gradient rectangular frame with slight wavy edges, a delicate gold outline, and subtle white star and cherry blossom accents. Contains the main screen title.",
+      "priority": "P0",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "text_title_member_house_decorate",
+      "category": "text",
+      "name_kr": "멤버 하우스 / 꾸미기",
+      "description_en": "The Korean text '멤버 하우스 / 꾸미기' in a dark, legible font, centered within the pink title frame.",
+      "priority": "P0",
+      "bg_color": "transparent",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "button_question_mark",
+      "category": "ui_button",
+      "name_kr": "도움말 버튼",
+      "description_en": "A light pink circular button with a dark pink question mark icon, outlined in white.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_frame_character_info_panel",
+      "category": "ui_frame",
+      "name_kr": "캐릭터 정보 패널",
+      "description_en": "A light pink rectangular panel with softly rounded corners and a decorative gold border along the top edge. Displays character name, affection level, and related information.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "text_sui_name",
+      "category": "text",
+      "name_kr": "수이",
+      "description_en": "Large, stylized Korean text '수이' in a dark pink font with a subtle shadow, representing the character's name.",
+      "priority": "P0",
+      "bg_color": "transparent",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "icon_cherry_blossom_small",
+      "category": "icon",
+      "name_kr": "벚꽃 아이콘 (작은)",
+      "description_en": "A small, delicate five-petal pink cherry blossom icon with a yellow center, used for decorative purposes.",
+      "priority": "P0",
+      "bg_color": "transparent",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "text_affection_level",
+      "category": "text",
+      "name_kr": "친밀도 Lv. 6",
+      "description_en": "The Korean text '친밀도 Lv. 6' in a dark font, indicating the character's affection level.",
+      "priority": "P0",
+      "bg_color": "transparent",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_progress_bar_affection",
+      "category": "ui_frame",
+      "name_kr": "친밀도 진행 바",
+      "description_en": "A horizontal progress bar with a light pink background, partially filled with a purple-pink gradient, indicating progression towards the next affection level.",
+      "priority": "P0",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "icon_heart_affection",
+      "category": "icon",
+      "name_kr": "하트 아이콘 (친밀도)",
+      "description_en": "A stylized heart icon with a soft pink glow, positioned next to the affection progress bar.",
+      "priority": "P0",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "button_affection_reward",
+      "category": "ui_button",
+      "name_kr": "친밀도 보상 버튼",
+      "description_en": "A rectangular button with rounded corners, a light pink background, and a gold border. Features a small gift box icon and the dark pink text '친밀도 보상'.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "character_sui_chibi_standing_red_uniform",
+      "category": "character",
+      "name_kr": "수이 꼬마 캐릭터 (빨간 교복)",
+      "description_en": "A chibi character of Sui with shoulder-length black hair and bangs, wearing a white collared shirt with a red tie, a red cardigan, a black pleated skirt, white socks, and brown shoes. Standing on a small black circular base.",
+      "priority": "P0",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "background_room_waikiki_sunset",
+      "category": "background",
+      "name_kr": "와이키키 노을 방 배경",
+      "description_en": "A beautifully decorated room background with a large arched balcony revealing a sunset beach scene with palm trees and ocean. The room has a pink and white aesthetic, featuring a bed with a shell pillow, a round rug, a dressing table with a mirror, a pink suitcase, plants, and string lights.",
+      "priority": "P0",
+      "bg_color": "none",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "button_todays_voice",
+      "category": "ui_button",
+      "name_kr": "오늘의 보이스 버튼",
+      "description_en": "A rectangular button with rounded corners, a light pink background, and a gold border. Features a microphone icon with music notes and the dark pink text '오늘의 보이스'.",
+      "priority": "P0",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "button_letter",
+      "category": "ui_button",
+      "name_kr": "편지 버튼",
+      "description_en": "A rectangular button with rounded corners, a light pink background, and a gold border. Features an envelope icon and the dark pink text '편지'.",
+      "priority": "P0",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "button_ar_pose",
+      "category": "ui_button",
+      "name_kr": "AR 포즈 버튼",
+      "description_en": "A rectangular button with rounded corners, a light pink background, and a gold border. Features a camera icon with sparkle effects and the dark pink text 'AR 포즈'.",
+      "priority": "P0",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_frame_bottom_navigation",
+      "category": "ui_frame",
+      "name_kr": "하단 내비게이션 바 프레임",
+      "description_en": "A horizontal, light pink rectangular frame with rounded bottom corners, serving as the base for navigation tabs.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "tab_decorate_selected",
+      "category": "ui_button",
+      "name_kr": "꾸미기 탭 (선택됨)",
+      "description_en": "A selected tab button with a light pink background and darker pink border, styled with an upward bulge. Features a detailed house icon and the dark pink text '꾸미기'.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "tab_outfit_deselected",
+      "category": "ui_button",
+      "name_kr": "의상 탭 (미선택)",
+      "description_en": "A deselected tab button with a transparent background, white text '의상', and a subtle outline-style dress icon.",
+      "priority": "P0",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "tab_furniture_deselected",
+      "category": "ui_button",
+      "name_kr": "가구 탭 (미선택)",
+      "description_en": "A deselected tab button with a transparent background, white text '가구', and a subtle outline-style sofa icon.",
+      "priority": "P0",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "tab_gift_deselected",
+      "category": "ui_button",
+      "name_kr": "선물 탭 (미선택)",
+      "description_en": "A deselected tab button with a transparent background, white text '선물', and a subtle outline-style gift box icon.",
+      "priority": "P0",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "tab_conversation_deselected",
+      "category": "ui_button",
+      "name_kr": "대화 탭 (미선택)",
+      "description_en": "A deselected tab button with a transparent background, white text '대화', and a subtle outline-style speech bubble icon.",
+      "priority": "P0",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_frame_bottom_content_panel",
+      "category": "ui_frame",
+      "name_kr": "하단 콘텐츠 패널",
+      "description_en": "A large rectangular panel with rounded corners and a very light pink background, used to display item selections like outfits and furniture.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_section_title_outfit",
+      "category": "ui_frame",
+      "name_kr": "의상 섹션 타이틀",
+      "description_en": "A horizontal bar marking the outfit selection section, featuring a hanger icon and the dark pink text '의상'.",
+      "priority": "P0",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_outfit_thumbnail_red_cardigan_uniform_selected",
+      "category": "deco_item",
+      "name_kr": "빨간 가디건 교복 의상 썸네일 (선택됨)",
+      "description_en": "A square thumbnail with a light pink border and a checkmark icon, showcasing a chibi model wearing a white shirt, red tie, red cardigan, black pleated skirt, white socks, and brown shoes.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_section_title_furniture",
+      "category": "ui_frame",
+      "name_kr": "가구 섹션 타이틀",
+      "description_en": "A horizontal bar marking the furniture selection section, featuring a sofa icon and the dark pink text '가구'.",
+      "priority": "P0",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_furniture_thumbnail_bed",
+      "category": "deco_item",
+      "name_kr": "침대 가구 썸네일",
+      "description_en": "A square thumbnail with a light pink dashed border, showcasing a detailed pink and purple bed with multiple pillows and a duvet, in a romantic style.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_furniture_thumbnail_dressing_table",
+      "category": "deco_item",
+      "name_kr": "화장대 가구 썸네일",
+      "description_en": "A square thumbnail with a light pink dashed border, showing a detailed vintage-style wooden dressing table with a large mirror, matching stool, and various vanity items.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_furniture_thumbnail_potted_plant_rug",
+      "category": "deco_item",
+      "name_kr": "화분 러그 가구 썸네일",
+      "description_en": "A square thumbnail with a light pink dashed border, depicting a round pink rug with a seashell pattern and a potted green plant placed on it.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_furniture_thumbnail_photo_board",
+      "category": "deco_item",
+      "name_kr": "사진 게시판 가구 썸네일",
+      "description_en": "A square thumbnail with a light pink dashed border, showing a wooden board decorated with various 'WAIKIKI TOUR' postcards and photos pinned to it.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_furniture_thumbnail_balcony_view",
+      "category": "deco_item",
+      "name_kr": "발코니 풍경 가구 썸네일",
+      "description_en": "A square thumbnail with a light pink dashed border, displaying a serene view of a sunset over a tropical beach with palm trees and ocean, framed by an archway.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "button_save",
+      "category": "ui_button",
+      "name_kr": "저장 버튼",
+      "description_en": "A light purple rectangular button with rounded corners, featuring a floppy disk icon and the white text '저장'. Embellished with subtle sparkles.",
+      "priority": "P0",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "button_preview",
+      "category": "ui_button",
+      "name_kr": "미리보기 버튼",
+      "description_en": "A light purple rectangular button with rounded corners, featuring an eye icon and the white text '미리보기'. Embellished with subtle sparkles.",
+      "priority": "P0",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "button_apply_decorate",
+      "category": "ui_button",
+      "name_kr": "꾸미기 적용 버튼",
+      "description_en": "A prominent pink rectangular button with rounded corners, a white checkmark icon, and the white text '꾸미기 적용'. Decorated with subtle sparkles and a small cherry blossom icon on the right.",
+      "priority": "P0",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_icon_heart_lives",
+      "category": "icon",
+      "name_kr": "하트 아이콘",
+      "description_en": "A glossy, stylized pink heart icon with a white outline, representing lives or energy. A small '5' is subtly placed on its top left.",
+      "priority": "P0",
+      "bg_color": "#F0DAEC",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_icon_gem_currency",
+      "category": "icon",
+      "name_kr": "보석 아이콘",
+      "description_en": "A shimmering, faceted purple gem icon with a bright sparkle, representing premium currency. The number '250' is positioned next to it.",
+      "priority": "P0",
+      "bg_color": "#F0DAEC",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_icon_coin_currency",
+      "category": "icon",
+      "name_kr": "코인 아이콘",
+      "description_en": "A glossy, golden five-pointed star-shaped coin icon with a detailed surface, representing standard in-game currency. The number '12,350' is positioned next to it.",
+      "priority": "P0",
+      "bg_color": "#F0DAEC",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_button_settings",
+      "category": "ui_button",
+      "name_kr": "설정 버튼",
+      "description_en": "A glossy, silver gear icon with a metallic sheen, serving as a settings button.",
+      "priority": "P0",
+      "bg_color": "#F0DAEC",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_logo_waikikiii_tour",
+      "category": "ui_frame",
+      "name_kr": "와이키키 투어 로고",
+      "description_en": "A stylized logo for 'WAIKIIKII TOUR' in white with a pink outline and sparkling accents, flanked by small pink hibiscus flowers. It has a cheerful, tropical design.",
+      "priority": "P0",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "character_sui_chibi_standing",
+      "category": "character",
+      "name_kr": "수이 꼬마 캐릭터",
+      "description_en": "A cute chibi girl character with large, expressive brown eyes, long wavy dark brown hair, and bangs. She wears a white collared shirt, a red knitted cardigan, and a dark tie. Her hands are clasped in front of her, and she has a gentle, inviting smile. Small pink sparkles emanate from her.",
+      "priority": "P0",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "background_tropical_beach_sunset",
+      "category": "background",
+      "name_kr": "열대 해변 석양",
+      "description_en": "A vibrant tropical beach scene at sunset, featuring silhouetted palm trees against a warm gradient sky of orange, pink, and purple. A wooden boardwalk runs along the left, and string lights are visible on the palm trees, creating a cozy evening atmosphere.",
+      "priority": "P0",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_frame_stage_info",
+      "category": "ui_frame",
+      "name_kr": "스테이지 정보 프레임",
+      "description_en": "A large, ornate pink frame with a quilted texture and a ribbon-like banner at the top, displaying '스테이지 1' (Stage 1). It includes sections for '남은 이동' (Moves Left) showing '18', '스코어' (Score) showing '2,340', and a star rating system with 1.5 out of 5 stars filled in pink. The frame is adorned with a small seashell and a hibiscus flower.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_icon_star_rating_filled",
+      "category": "icon",
+      "name_kr": "채워진 별점 아이콘",
+      "description_en": "A small, five-pointed star icon filled with glossy pink, indicating an achieved rating.",
+      "priority": "P0",
+      "bg_color": "#F0DAEC",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_icon_star_rating_empty",
+      "category": "icon",
+      "name_kr": "비어있는 별점 아이콘",
+      "description_en": "A small, five-pointed star icon with a white outline and transparent center, indicating an unachieved rating.",
+      "priority": "P0",
+      "bg_color": "#F0DAEC",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_frame_mission",
+      "category": "ui_frame",
+      "name_kr": "미션 프레임",
+      "description_en": "A rectangular, glossy light purple frame with a white glitter outline. It features a prominent '미션' (Mission) title and displays two distinct mission objectives: a pink vintage camera icon with '12개' (12 items) and a 'Vacation Trip' ticket icon with '10개' (10 items).",
+      "priority": "P0",
+      "bg_color": "#EFE9EE",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_icon_camera_mission",
+      "category": "icon",
+      "name_kr": "미션 카메라 아이콘",
+      "description_en": "A glossy pink vintage camera icon with a silver lens and strap, representing a mission objective.",
+      "priority": "P0",
+      "bg_color": "#EFE9EE",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_icon_ticket_mission",
+      "category": "icon",
+      "name_kr": "미션 티켓 아이콘",
+      "description_en": "A stylized pink and purple ticket icon labeled 'Vacation Trip' with palm tree and sunset graphics, representing a mission objective.",
+      "priority": "P0",
+      "bg_color": "#EFE9EE",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_frame_booster_sidebar",
+      "category": "ui_frame",
+      "name_kr": "부스터 사이드바 프레임",
+      "description_en": "A tall, rectangular light pink frame with a white outline and subtle glitter effects. It features '부스터' (Booster) as a title at the top and vertically lists four different booster icons, each with a count of '3' and their respective Korean names.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_booster_rainbow_bomb_inventory",
+      "category": "icon",
+      "name_kr": "무지개 폭탄 부스터 (인벤토리)",
+      "description_en": "A circular icon showing a swirling rainbow-colored bomb, representing an inventory booster. A small pink '3' on the bottom right indicates the quantity. The Korean name '무지개 폭탄' (Rainbow Bomb) is displayed below.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_booster_hammer_inventory",
+      "category": "icon",
+      "name_kr": "해머 부스터 (인벤토리)",
+      "description_en": "A circular icon showing a glossy golden hammer with a purple handle, representing an inventory booster. A small pink '3' on the bottom right indicates the quantity. The Korean name '해머' (Hammer) is displayed below.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_booster_swap_inventory",
+      "category": "icon",
+      "name_kr": "위치 변경 부스터 (인벤토리)",
+      "description_en": "A circular icon showing two interconnected blue curved arrows, symbolizing a swap or change, representing an inventory booster. A small pink '3' on the bottom right indicates the quantity. The Korean name '위치 변경' (Swap Position) is displayed below.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_booster_plus_5_moves_inventory",
+      "category": "icon",
+      "name_kr": "이동 추가 부스터 (인벤토리)",
+      "description_en": "A circular icon with a prominent pink '+5' and a curved arrow, indicating additional moves, representing an inventory booster. A small pink '3' on the bottom right indicates the quantity. The Korean name '이동 추가' (Add Moves) is displayed below.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "merge_tile_hibiscus",
+      "category": "merge_tile",
+      "name_kr": "히비스커스 꽃 타일",
+      "description_en": "A glossy, light pink hibiscus flower icon with a yellow center, styled as a match-3 game tile.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "merge_tile_purple_seashell",
+      "category": "merge_tile",
+      "name_kr": "보라색 조개 타일",
+      "description_en": "A glossy, purple scallop seashell icon with a ridged texture, styled as a match-3 game tile.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "merge_tile_gold_star",
+      "category": "merge_tile",
+      "name_kr": "금색 별 타일",
+      "description_en": "A glossy, golden five-pointed star icon with a reflective surface, styled as a match-3 game tile.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "merge_tile_blue_heart_gem",
+      "category": "merge_tile",
+      "name_kr": "파란색 하트 보석 타일",
+      "description_en": "A faceted, translucent blue heart-shaped gem icon with sparkling highlights, styled as a match-3 game tile.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "merge_tile_pink_heart_gem",
+      "category": "merge_tile",
+      "name_kr": "분홍색 하트 보석 타일",
+      "description_en": "A faceted, translucent pink heart-shaped gem icon with sparkling highlights, styled as a match-3 game tile.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "merge_tile_coconut_drink",
+      "category": "merge_tile",
+      "name_kr": "코코넛 음료 타일",
+      "description_en": "A brown coconut decorated with a small pink umbrella and a hibiscus flower, containing a tropical drink, styled as a match-3 game tile.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "merge_tile_pink_camera",
+      "category": "merge_tile",
+      "name_kr": "분홍색 카메라 타일",
+      "description_en": "A vintage-style pink camera icon with a silver lens and strap, detailed with a small flower, styled as a match-3 game tile.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "merge_tile_vacation_ticket",
+      "category": "merge_tile",
+      "name_kr": "여행 티켓 타일",
+      "description_en": "A pink and purple stylized ticket icon labeled 'VACATION TRIP' with palm tree and sunset graphics, styled as a match-3 game tile.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "merge_tile_waikikiii_tag",
+      "category": "merge_tile",
+      "name_kr": "와이키키 태그 타일",
+      "description_en": "A pink luggage tag icon with 'WAIKIIKII TOUR' written on it and a small palm tree graphic, styled as a match-3 game tile.",
+      "priority": "P0",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_button_booster_rainbow_bomb",
+      "category": "ui_button",
+      "name_kr": "무지개 폭탄 부스터 버튼",
+      "description_en": "A circular purple button featuring a swirling rainbow-colored bomb icon in the center. A small pink '3' indicates the remaining count.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_button_booster_hammer",
+      "category": "ui_button",
+      "name_kr": "해머 부스터 버튼",
+      "description_en": "A circular purple button featuring a glossy golden hammer icon in the center. A small pink '3' indicates the remaining count.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_button_booster_swap",
+      "category": "ui_button",
+      "name_kr": "위치 변경 부스터 버튼",
+      "description_en": "A circular purple button featuring two interconnected blue curved arrows, symbolizing a swap, in the center. A small pink '3' indicates the remaining count.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_button_booster_plus_5_moves",
+      "category": "ui_button",
+      "name_kr": "이동 추가 부스터 버튼",
+      "description_en": "A circular purple button featuring a pink '+5' and a curved arrow icon, indicating additional moves, in the center. A small pink '3' indicates the remaining count.",
+      "priority": "P0",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_button_back_arrow",
+      "category": "icon",
+      "name_kr": "뒤로 가기",
+      "description_en": "A light pink circular button with a thin white outline, featuring a white left-pointing arrow icon.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_button_question_mark",
+      "category": "icon",
+      "name_kr": "도움말",
+      "description_en": "A light grey circular button with a dark grey outline, featuring a white question mark icon.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_button_home",
+      "category": "icon",
+      "name_kr": "홈",
+      "description_en": "A light grey circular button with a dark grey outline, featuring a white house icon.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_frame_photo_box_title",
+      "category": "ui_frame",
+      "name_kr": "포토 박스",
+      "description_en": "A light pink, cloud-shaped frame with an embossed stitch pattern border. It contains purple gradient text '포토 박스' and is decorated with a small light pink flower and star on the top left.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_frame_card_count",
+      "category": "ui_frame",
+      "name_kr": "카드 개수 표시",
+      "description_en": "A rounded rectangular light beige frame with a thin darker outline, displaying '38 / 120' in black text. A small card stack icon is positioned to its left.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "icon_card_stack",
+      "category": "icon",
+      "name_kr": "카드 스택 아이콘",
+      "description_en": "A small, simple icon depicting two overlapping cards, one slightly angled.",
+      "priority": "P0",
+      "bg_color": "#ede2db",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_tab_all_active",
+      "category": "ui_button",
+      "name_kr": "전체 탭 (활성)",
+      "description_en": "A reddish-pink rounded rectangular button with white text '전체'. It has a subtle glowing effect.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_tab_sui_inactive",
+      "category": "ui_button",
+      "name_kr": "수이 탭 (비활성)",
+      "description_en": "A light pink rounded rectangular button with white text '수이' and a small pink flower icon.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_tab_kiya_inactive",
+      "category": "ui_button",
+      "name_kr": "키야 탭 (비활성)",
+      "description_en": "A light pink rounded rectangular button with white text '키야' and a small purple flower icon.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_tab_jiyu_inactive",
+      "category": "ui_button",
+      "name_kr": "지유 탭 (비활성)",
+      "description_en": "A light pink rounded rectangular button with white text '지유' and a small red flower icon.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_tab_haeum_inactive",
+      "category": "ui_button",
+      "name_kr": "하음 탭 (비활성)",
+      "description_en": "A light pink rounded rectangular button with white text '하음' and a small orange flower icon.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_tab_isul_inactive",
+      "category": "ui_button",
+      "name_kr": "이슬 탭 (비활성)",
+      "description_en": "A light pink rounded rectangular button with white text '이슬' and a small light blue flower icon.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_label_new",
+      "category": "icon",
+      "name_kr": "NEW 라벨",
+      "description_en": "A stylized red 'NEW!' label with a white outline, designed to look like a stamp or sticker, rotated slightly counter-clockwise.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_text_sui_name_large",
+      "category": "ui_frame",
+      "name_kr": "수이 이름 텍스트 (대)",
+      "description_en": "Large, bold, pink-colored text '수이'.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_text_summer_tour_special_kr",
+      "category": "ui_frame",
+      "name_kr": "여름 투어 스페셜 텍스트",
+      "description_en": "Smaller, pink-colored text '여름 투어 스페셜' (Summer Tour Special).",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "card_frame_ssr_main",
+      "category": "card_frame",
+      "name_kr": "메인 SSR 카드 프레임",
+      "description_en": "A large, rectangular card frame with a glowing, iridescent, holographic border that shifts colors. It prominently displays 'SSR' in white text in the top left corner and a gold circular 'WAIIIIKII TOUR' seal in the bottom right. The internal background is a vibrant sunset beach scene with palm trees.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "character_sui_ssr_summer",
+      "category": "character",
+      "name_kr": "수이 (SSR 여름)",
+      "description_en": "An isolated chibi female character named Sui, with long wavy black hair and expressive brown eyes, smiling gently. She wears a red button-up cardigan over a white collared shirt and black pleated skirt. She holds a clear glass with a pink cocktail and a small white flower as garnish.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "card_frame_r_basic",
+      "category": "card_frame",
+      "name_kr": "R 카드 프레임 (기본)",
+      "description_en": "A rectangular card frame with a gradient border, fading from pale blue to pink, and 'R' text in the top left corner. The internal background depicts a sunset beach scene with a wooden pier.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "card_frame_sr_basic",
+      "category": "card_frame",
+      "name_kr": "SR 카드 프레임 (기본)",
+      "description_en": "A rectangular card frame with a glittery blue-purple gradient border and 'SR' text in the top left corner. The internal background depicts a sunset beach scene with colorful fireworks in the sky.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "card_frame_ssr_group",
+      "category": "card_frame",
+      "name_kr": "SSR 그룹 카드 프레임",
+      "description_en": "A rectangular card frame with an iridescent, holographic border, similar to the main SSR frame. It features 'SSR' text in the top left and a glowing pink heart icon. The internal background is a sunset beach scene.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "character_kiya_r",
+      "category": "character",
+      "name_kr": "키야 (R)",
+      "description_en": "An isolated chibi female character named Kiya, with long, wavy, dark grey hair flowing over her shoulders and brown eyes. She wears a white unzipped bomber jacket over a black top and black shorts. She stands in a casual, smiling pose.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "character_jiyu_r",
+      "category": "character",
+      "name_kr": "지유 (R)",
+      "description_en": "An isolated chibi female character named Jiyu, with short, straight brown bob hair and brown eyes. She wears a white short-sleeved collared shirt with a black tie and a black pleated skirt. She stands with a cheerful, slightly tilted head.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "character_sui_sr_camera",
+      "category": "character",
+      "name_kr": "수이 (SR 카메라)",
+      "description_en": "An isolated chibi female character named Sui, with long wavy black hair and brown eyes. She wears a red button-up cardigan over a white collared shirt and black pleated skirt. She is holding a black vintage camera with both hands, looking ready to take a picture.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "character_haeum_sr",
+      "category": "character",
+      "name_kr": "하음 (SR)",
+      "description_en": "An isolated chibi female character named Haeum, with long, curly brown hair and brown eyes. She wears a white short-sleeved collared shirt with a black tie and a black pleated skirt. She is pulling a pink rolling suitcase with one hand.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "character_isul_r_map",
+      "category": "character",
+      "name_kr": "이슬 (R 지도)",
+      "description_en": "An isolated chibi female character named Isul, with brown hair styled in a high bun and brown eyes. She wears a white short-sleeved collared shirt with a black tie and a black pleated skirt. She is holding and looking intently at a blue tourist map.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "character_group_ssr_waikiki_tour",
+      "category": "character",
+      "name_kr": "그룹 (SSR 와이키키 투어)",
+      "description_en": "An isolated group of four chibi female characters, comprising three with various shades of brown/dark blonde hair and one with black hair (resembling Sui's design). They all wear school-like uniforms: one in a red cardigan and the others in white collared shirts with black ties and black pleated skirts. They stand close together, smiling, with 'WAIIIIKII TOUR' text beneath them.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_button_voice_photocard_new",
+      "category": "ui_button",
+      "name_kr": "보이스 포카 버튼 (NEW)",
+      "description_en": "A rectangular beige button with rounded corners. It features a microphone icon, '보이스 포카' text, and a small red 'NEW' label on its top left corner.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_button_season",
+      "category": "ui_button",
+      "name_kr": "시즌 버튼",
+      "description_en": "A rectangular beige button with rounded corners, featuring a calendar icon and '시즌' text.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_button_sort",
+      "category": "ui_button",
+      "name_kr": "정렬 버튼",
+      "description_en": "A rectangular beige button with rounded corners, featuring an up/down arrow sort icon and '정렬' text.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_button_filter",
+      "category": "ui_button",
+      "name_kr": "필터 버튼",
+      "description_en": "A rectangular beige button with rounded corners, featuring a filter funnel icon and '필터' text.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_button_photocard_ticket_x12",
+      "category": "ui_button",
+      "name_kr": "포카 티켓 x 12",
+      "description_en": "A rectangular beige button with rounded corners, featuring two overlapping pink ticket icons and '포카 티켓 x 12' text. A small red plus icon in a white circle is on its right side.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "icon_plus_red",
+      "category": "icon",
+      "name_kr": "빨간색 더하기 아이콘",
+      "description_en": "A small red plus sign inside a white circle.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_button_12_consecutive_open",
+      "category": "ui_button",
+      "name_kr": "12 연속 오픈 버튼",
+      "description_en": "A large, rounded rectangular pink button with a glittery effect. It features '12 연속 오픈' in prominent white text, '포카를 한 번에 열 수 있어요!' in smaller white text below, two white card icons, and a white paper airplane icon.",
+      "priority": "P0",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "background_diary_page_wood",
+      "category": "background",
+      "name_kr": "다이어리 페이지 및 나무 배경",
+      "description_en": "The main background features a light beige-pink diary page with three ring binder holes on the left edge, layered over a warm, light brown wooden table background. The page has a subtle paper texture and slight shadow, giving it depth.",
+      "priority": "P0",
+      "bg_color": "N/A",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "bg_city_beach_sunset",
+      "category": "background",
+      "name_kr": "도시 해변 일몰 배경",
+      "description_en": "A picturesque sunset or sunrise background featuring a vibrant coastal city with a wide sandy beach, clear blue ocean, and a distant lighthouse and Ferris wheel. Palm trees dot the landscape. The sky is a gradient of soft blues, pinks, and purples, with subtle star glints and an airplane trail.",
+      "priority": "P0",
+      "bg_color": "N/A",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "ui_title_waikiikiii_tour",
+      "category": "deco_item",
+      "name_kr": "와이키키 투어 타이틀",
+      "description_en": "A large, stylized title text 'WAIKIIKIII TOUR'. 'WAIKIIKIII' is pink with white outlines and a subtle gradient, slightly curved upwards. 'TOUR' is blue with white outlines, slightly curved downwards. Both have a playful, bubbly font with a slight 3D effect.",
+      "priority": "P0",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "ui_banner_fandom_trip_story",
+      "category": "ui_frame",
+      "name_kr": "팬덤 여행 이야기 배너",
+      "description_en": "A horizontal purple ribbon banner with jagged ends, featuring the text 'Fandom Trip Story' in white, flanked by small pink hearts.",
+      "priority": "P0",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "character_chibi_01_beige_cardigan",
+      "category": "character",
+      "name_kr": "치비 캐릭터 1 (베이지 가디건)",
+      "description_en": "A chibi girl with long, wavy dark brown hair, wearing a white short-sleeved shirt with a black tie, a pleated black skirt, white socks, and brown loafers. She wears a light beige long-sleeved cardigan and is posing with one finger near her chin, smiling softly.",
+      "priority": "P0",
+      "bg_color": "light_pink_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "character_chibi_02_short_hair_suspenders",
+      "category": "character",
+      "name_kr": "치비 캐릭터 2 (짧은 머리 멜빵)",
+      "description_en": "A chibi girl with chin-length, light brown bob hair with bangs, wearing a white short-sleeved shirt with a black tie, a pleated black skirt with black suspenders, white socks, and brown loafers. She is making a peace sign with her left hand, smiling brightly.",
+      "priority": "P0",
+      "bg_color": "light_pink_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "character_chibi_03_red_cardigan_waving",
+      "category": "character",
+      "name_kr": "치비 캐릭터 3 (빨간 가디건 손 흔들기)",
+      "description_en": "A chibi girl with long, straight dark brown hair with bangs, wearing a white short-sleeved shirt with a black tie, a pleated black skirt, white socks, and brown loafers. She wears a bright red long-sleeved cardigan and is enthusiastically waving with her right hand, smiling widely.",
+      "priority": "P0",
+      "bg_color": "light_pink_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "character_chibi_04_ponytail",
+      "category": "character",
+      "name_kr": "치비 캐릭터 4 (포니테일)",
+      "description_en": "A chibi girl with long brown hair tied into a high ponytail, wearing a white short-sleeved shirt with a black tie, a pleated black skirt, white socks, and brown loafers. She is holding her left hand up in a friendly wave, with a cheerful expression.",
+      "priority": "P0",
+      "bg_color": "light_pink_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "character_chibi_05_hands_on_hips",
+      "category": "character",
+      "name_kr": "치비 캐릭터 5 (허리에 손)",
+      "description_en": "A chibi girl with long, wavy brown hair, wearing a white short-sleeved shirt with a black tie, a pleated black skirt, white socks, and brown loafers. She is posing confidently with both hands on her hips.",
+      "priority": "P0",
+      "bg_color": "light_pink_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "ui_button_touch_to_start",
+      "category": "ui_button",
+      "name_kr": "시작 버튼",
+      "description_en": "A wide, horizontal oval-shaped button with a gradient purple background, featuring the text 'TOUCH TO START' in white with a subtle glowing effect. It is flanked by sparkling star elements.",
+      "priority": "P0",
+      "bg_color": "dark_purple_sky",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "ui_button_notice",
+      "category": "ui_button",
+      "name_kr": "알림 버튼",
+      "description_en": "A square button with rounded corners, featuring a white bell icon on a dark purple background. The word 'NOTICE' in white text is positioned below the icon.",
+      "priority": "P0",
+      "bg_color": "dark_purple_sky",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_camera_instant_pink",
+      "category": "deco_item",
+      "name_kr": "핑크 즉석 카메라",
+      "description_en": "A modern instant camera, primarily pink with a white lens and black details, lying flat.",
+      "priority": "P0",
+      "bg_color": "light_purple_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_signpost_memories",
+      "category": "deco_item",
+      "name_kr": "기억 표지판",
+      "description_en": "A wooden-style signpost pointing right, colored pink with a white border, featuring the text 'MEMORIES' and a small pink heart.",
+      "priority": "P0",
+      "bg_color": "sky_blue_and_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_signpost_friends",
+      "category": "deco_item",
+      "name_kr": "친구 표지판",
+      "description_en": "A wooden-style signpost pointing right, colored yellow with a white border, featuring the text 'FRIENDS' and a small yellow star.",
+      "priority": "P0",
+      "bg_color": "sky_blue_and_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_signpost_adventure",
+      "category": "deco_item",
+      "name_kr": "모험 표지판",
+      "description_en": "A wooden-style signpost pointing right, colored light blue with a white border, featuring the text 'ADVENTURE' and a small light blue star.",
+      "priority": "P0",
+      "bg_color": "sky_blue_and_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_signpost_forever",
+      "category": "deco_item",
+      "name_kr": "영원히 표지판",
+      "description_en": "A wooden-style signpost pointing right, colored light purple with a white border, featuring the text 'FOREVER' and a small purple star.",
+      "priority": "P0",
+      "bg_color": "sky_blue_and_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "ui_platform_circular",
+      "category": "ui_frame",
+      "name_kr": "원형 플랫폼",
+      "description_en": "A circular, light pink platform with a subtle gradient and a slightly reflective surface, featuring sparkling star patterns. It has a slightly raised edge, providing a stage for the characters.",
+      "priority": "P0",
+      "bg_color": "sky_blue_and_purple_sky",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "ui_back_arrow_button",
+      "category": "ui_button",
+      "name_kr": "뒤로가기 버튼",
+      "description_en": "Circular soft pink button with a white left-pointing arrow icon, a subtle shadow, and a golden outline.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_waikikii_tour_logo",
+      "category": "ui_frame",
+      "name_kr": "와이키키 투어 로고",
+      "description_en": "Stylized text 'WAIIKIIKII TOUR' in white with a pink glow, topped by a pink seashell icon with a sparkle effect. Overall playful, vacation theme.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_story_episode_title_text",
+      "category": "ui_frame",
+      "name_kr": "스토리 에피소드 제목 텍스트",
+      "description_en": "The Korean text '스토리 에피소드' (Story Episode) in white, with a subtle pink glow, set against a background of sparkling stars.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_current_episode_header_frame",
+      "category": "ui_frame",
+      "name_kr": "현재 에피소드 헤더 프레임",
+      "description_en": "A small, light peach-colored horizontal rounded rectangular frame with a subtle shadow, containing 'EP. 01 여름 여행의 시작' (EP. 01 Start of Summer Trip) in brown text. Positioned below the main title, above the episode progress bar.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_episode_progress_segment_active",
+      "category": "ui_button",
+      "name_kr": "에피소드 진행 바 활성 세그먼트",
+      "description_en": "A bright pink, rounded rectangular segment from an episode progress bar, labeled 'EP.01 여름 여행의 시작' (EP.01 Start of Summer Trip) in white text and decorated with small pink flower icons at each end.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "background_sunset_pier_beach",
+      "category": "background",
+      "name_kr": "선셋 부두 해변 배경",
+      "description_en": "A picturesque landscape featuring a wooden pier extending into a calm ocean at sunset. Palm trees with string lights line the beach, and a sailboat is visible in the distance. The sky is a gradient of pink, orange, and purple hues, creating a warm, dreamy atmosphere.",
+      "priority": "P0",
+      "bg_color": "transparent",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_dialogue_bubble_sui",
+      "category": "ui_frame",
+      "name_kr": "수이 대화 말풍선",
+      "description_en": "A large, rectangular speech bubble with rounded corners and a small pointer directed towards the character Sui. It has a soft pink gradient border and a light beige fill. Contains '수이' (Sui) in a separate pink name tag, and two lines of Korean text: '드디어 여행이 시작됐어!' (The trip has finally started!) and '오늘은 너와 어떤 추억을 만들게 될까?' (What memories will I make with you today?).",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_button_take_photo",
+      "category": "ui_button",
+      "name_kr": "함께 사진 찍기 버튼",
+      "description_en": "A light pink, rounded rectangular button with a purple camera icon on the left and the Korean text '함께 사진 찍기' (Take a photo together) on the right. Includes a small pink flower icon as decoration on the far right.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_camera_purple",
+      "category": "icon",
+      "name_kr": "보라색 카메라 아이콘",
+      "description_en": "A stylized purple camera icon with a lens and flash detail, used on a button.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 230, 230)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_button_go_to_sea",
+      "category": "ui_button",
+      "name_kr": "바다 보러 가기 버튼",
+      "description_en": "A light purple, rounded rectangular button with an orange starfish icon on the left and the Korean text '바다 보러 가기' (Go see the sea) on the right. Includes a small pink flower icon as decoration on the far right.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_starfish_orange",
+      "category": "icon",
+      "name_kr": "주황색 불가사리 아이콘",
+      "description_en": "A stylized orange starfish icon, used on a button.",
+      "priority": "P0",
+      "bg_color": "rgb(230, 220, 255)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_episode_list_panel",
+      "category": "ui_frame",
+      "name_kr": "에피소드 목록 패널",
+      "description_en": "A tall, light beige rounded rectangular panel with a soft pink glow border, containing a scrollable list of episode items.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_episode_list_item_active",
+      "category": "ui_frame",
+      "name_kr": "에피소드 목록 아이템 (현재 진행중)",
+      "description_en": "A rounded rectangular list item with a pink border, containing 'EP.01 여름 여행의 시작' (EP.01 Start of Summer Trip) in black text, a small thumbnail preview image of a sunset pier scene, and '진행 중' (In Progress) status text with a pink flower icon. The background is white.",
+      "priority": "P0",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "merge_tile_ep01_thumbnail_sunset_pier",
+      "category": "merge_tile",
+      "name_kr": "EP.01 선셋 부두 썸네일 타일",
+      "description_en": "A small, rounded rectangular thumbnail image depicting a scenic view of a wooden pier at sunset with palm trees, representing Episode 01.",
+      "priority": "P0",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_rewards_header_frame",
+      "category": "ui_frame",
+      "name_kr": "에피소드 클리어 보상 헤더 프레임",
+      "description_en": "A light beige, rectangular frame with a subtle pink glow, containing the Korean text '에피소드 클리어 보상' (Episode Clear Rewards) in black and a small palm tree icon with sparkles.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_reward_heart",
+      "category": "icon",
+      "name_kr": "보상 하트 아이콘",
+      "description_en": "A glossy, plump pink heart icon, indicating an affection reward of '+10'.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_reward_ticket",
+      "category": "icon",
+      "name_kr": "보상 티켓 아이콘",
+      "description_en": "A stylized, torn-edge ticket icon with 'WAIKIKII TOUR' text and a small pink flower, representing a photocard ticket reward of 'x1'.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_reward_coin",
+      "category": "icon",
+      "name_kr": "보상 코인 아이콘",
+      "description_en": "A shiny golden coin icon with a star embossed in the center, representing a coin reward of 'x300'.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "card_frame_reward_photo",
+      "category": "card_frame",
+      "name_kr": "보상 포토 카드 프레임",
+      "description_en": "A polaroid-style card frame with a small thumbnail image of a sunset pier scene and the hashtag '#WaikikiiTour' below it. It is slightly tilted and decorated with a small pink flower icon on the top right.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_button_start_episode",
+      "category": "ui_button",
+      "name_kr": "에피소드 시작 버튼",
+      "description_en": "A large, prominent, long horizontal pink gradient button with sparkles, containing the bold white Korean text '에피소드 시작' (Start Episode) and a white airplane icon to the right.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_airplane_white",
+      "category": "icon",
+      "name_kr": "흰색 비행기 아이콘",
+      "description_en": "A simple white airplane icon flying towards the right, stylized with a small trail, used on the 'Start Episode' button.",
+      "priority": "P0",
+      "bg_color": "rgb(255, 150, 180)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "background_isometric_room",
+      "category": "background",
+      "name_kr": "아이소메트릭 방",
+      "description_en": "An empty isometric room background. It features two plain light, creamy beige-orange walls meeting at a corner, and a floor made of alternating light beige and very light beige square tiles, creating a subtle checkerboard pattern. The room is unfurnished.",
+      "priority": "P1",
+      "bg_color": "#F9F3EC",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "icon_navigation_today",
+      "category": "icon",
+      "name_kr": "오늘 아이콘",
+      "description_en": "A light purple calendar icon, depicting the top part of a calendar page with a grid of small dots representing days. The icon has a clean, minimalist design.",
+      "priority": "P1",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "icon_navigation_game",
+      "category": "icon",
+      "name_kr": "게임 아이콘",
+      "description_en": "A light purple game controller icon, stylized with a slightly reflective surface on its buttons and body, giving it a modern and clean look.",
+      "priority": "P1",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "icon_navigation_explore",
+      "category": "icon",
+      "name_kr": "탐색 아이콘",
+      "description_en": "A light blue magnifying glass icon, stylized with a slight highlight on its lens and handle, suggesting an interactive search or exploration function.",
+      "priority": "P1",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-29T09-29-54-197Z.png"
+    },
+    {
+      "id": "browser_back_button_icon",
+      "category": "ui_button",
+      "name_kr": "브라우저 뒤로가기 버튼 아이콘",
+      "description_en": "Circular button with a light gray background and a left-pointing black arrow icon. Part of a web browser's navigation bar, commonly used to go to the previous page.",
+      "priority": "P1",
+      "bg_color": "#e0e0e0",
+      "source_file": "pasted-image-2026-04-29T09-39-22-891Z.png"
+    },
+    {
+      "id": "browser_reload_button_icon",
+      "category": "ui_button",
+      "name_kr": "브라우저 새로고침 버튼 아이콘",
+      "description_en": "Circular button with a light gray background and a black clockwise-curving arrow icon, indicating a page reload function. Standard web browser UI element.",
+      "priority": "P1",
+      "bg_color": "#e0e0e0",
+      "source_file": "pasted-image-2026-04-29T09-39-22-891Z.png"
+    },
+    {
+      "id": "browser_address_bar_frame",
+      "category": "ui_frame",
+      "name_kr": "브라우저 주소 표시줄 프레임",
+      "description_en": "Elongated, light gray rectangular frame with rounded ends, characteristic of a web browser's URL input area. It has a slight inner shadow effect.",
+      "priority": "P1",
+      "bg_color": "#e0e0e0",
+      "source_file": "pasted-image-2026-04-29T09-39-22-891Z.png"
+    },
+    {
+      "id": "affinity_progress_bar",
+      "category": "ui_frame",
+      "name_kr": "친밀도 진행 바",
+      "description_en": "Horizontal progress bar with a light pink filled section indicating progress, set against a transparent or white track.",
+      "priority": "P1",
+      "bg_color": "white",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "placeholder_missing_image_diagonal",
+      "category": "icon",
+      "name_kr": "이미지 없음 표시 (대각선)",
+      "description_en": "A black square with a bright green border and a single green diagonal line running from the top-left to the bottom-right corner, indicating a missing or unavailable image.",
+      "priority": "P1",
+      "bg_color": "light beige",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "bottom_navigation_bar_background",
+      "category": "ui_frame",
+      "name_kr": "하단 네비게이션 바 배경",
+      "description_en": "A solid white horizontal bar forming the background for the bottom navigation menu, with a subtle top edge shadow.",
+      "priority": "P1",
+      "bg_color": "none",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "icon_kia_calm",
+      "category": "icon",
+      "name_kr": "차분함",
+      "description_en": "A small, sparkling blue seashell icon, representing 'Calmness'.",
+      "priority": "P1",
+      "bg_color": "#EBE0F7",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "icon_jiyu_freshness",
+      "category": "icon",
+      "name_kr": "상큼함",
+      "description_en": "A small, sparkling pink heart icon, representing 'Freshness'.",
+      "priority": "P1",
+      "bg_color": "#FADCE6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "icon_sui_energy",
+      "category": "icon",
+      "name_kr": "에너지",
+      "description_en": "A small, sparkling red lightning bolt icon, representing 'Energy'.",
+      "priority": "P1",
+      "bg_color": "#FAD9C6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "icon_haeum_kindness",
+      "category": "icon",
+      "name_kr": "다정함",
+      "description_en": "A small, sparkling orange heart icon, representing 'Kindness'.",
+      "priority": "P1",
+      "bg_color": "#FAE6C6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "icon_iseul_trendy",
+      "category": "icon",
+      "name_kr": "트렌디",
+      "description_en": "A small, sparkling blue diamond icon, representing 'Trendy'.",
+      "priority": "P1",
+      "bg_color": "#DCEAF5",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "deco_starfish_orange",
+      "category": "deco_item",
+      "name_kr": "",
+      "description_en": "An orange starfish with a textured surface, positioned near the camera.",
+      "priority": "P1",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "deco_starfish_pink",
+      "category": "deco_item",
+      "name_kr": "",
+      "description_en": "A small pink starfish with a textured surface, positioned near the camera.",
+      "priority": "P1",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "deco_seashell_white",
+      "category": "deco_item",
+      "name_kr": "",
+      "description_en": "A white seashell, positioned near the suitcase.",
+      "priority": "P1",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "deco_frangipani_flower_white",
+      "category": "deco_item",
+      "name_kr": "",
+      "description_en": "White frangipani flowers with yellow centers, positioned near the camera.",
+      "priority": "P1",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "panel_bottom_description",
+      "category": "ui_frame",
+      "name_kr": "",
+      "description_en": "A horizontal, elongated rectangular panel with rounded corners and a dashed pink border. It has a very light beige background.",
+      "priority": "P1",
+      "bg_color": "#EBD5BE",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "text_bottom_description",
+      "category": "text_element",
+      "name_kr": "멤버마다 다른 매력과 스토리를 만날 수 있어요",
+      "description_en": "Korean text '멤버마다 다른 매력과 스토리를 만날 수 있어요' in dark gray, centered within the bottom description panel. It is flanked by small pink heart icons.",
+      "priority": "P1",
+      "bg_color": "#F6F0E6",
+      "source_file": "pasted-image-2026-04-30T02-54-11-933Z.png"
+    },
+    {
+      "id": "level_frame",
+      "category": "ui_frame",
+      "name_kr": "N/A",
+      "description_en": "A small, horizontal, light pink rectangular frame with subtly rounded corners and a thin outline. It contains the text 'LV. 42' in a clean black font.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "plus_button_small",
+      "category": "ui_button",
+      "name_kr": "N/A",
+      "description_en": "A small, circular button with a soft pink fill and a clean white plus sign in the center. It has a slight shadow for depth.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "mail_icon",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A simple, light pink envelope icon, stylized with a rounded flap, representing a mail or message inbox.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "notification_icon_bell",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A simple, light pink bell icon, slightly tilted with a small clapper visible, indicating notifications.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "top_right_menu_icon",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A simple, light pink hamburger menu icon, consisting of three horizontal lines, representing a main menu.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "main_member_label_sui",
+      "category": "ui_frame",
+      "name_kr": "메인 멤버 수이",
+      "description_en": "A cute, irregularly shaped pink speech bubble-like frame with a slight gradient and sparkles. It contains the text '메인 멤버' (Main Member) in small white font and '수이' (Sui) in a larger, bolder white font.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "character_list_entry_frame_empty",
+      "category": "ui_frame",
+      "name_kr": "N/A",
+      "description_en": "A pastel light pink rectangular frame with rounded corners and a thin, slightly darker pink border, designed to display a character's profile picture and information. It casts a soft shadow.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "kia_profile_chibi",
+      "category": "character",
+      "name_kr": "키야",
+      "description_en": "Chibi character headshot of Kia, featuring long, wavy dark hair reaching past her shoulders, dark expressive eyes, and fair skin. She wears a white collared shirt under a dark sleeveless top. Her expression is calm.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "jiyu_profile_chibi",
+      "category": "character",
+      "name_kr": "지유",
+      "description_en": "Chibi character headshot of Jiyu, featuring short, stylish brown bob hair with bangs, bright expressive eyes, and fair skin. She wears a white collared shirt under a dark sleeveless top. She has a bright, refreshing smile.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "haheum_profile_chibi",
+      "category": "character",
+      "name_kr": "하음",
+      "description_en": "Chibi character headshot of Hah-eum, featuring long, wavy dark brown hair, gentle dark eyes, and fair skin. She wears a white collared shirt under a dark sleeveless top. Her expression is kind and soft.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "iseul_profile_chibi",
+      "category": "character",
+      "name_kr": "이슬",
+      "description_en": "Chibi character headshot of I-seul, featuring stylish medium-length dark brown hair swept to one side, chic dark eyes, and fair skin. She wears a white collared shirt under a dark sleeveless top. Her expression is cool and trendy.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "arrow_icon_right_pink",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A simple, stylized light pink arrow pointing to the right, used for navigation or indicating more information.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "daily_plan_reward_gem_icon",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A small, sparkling light blue diamond icon, representing a reward from a daily plan.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "suitcase_pink_large",
+      "category": "deco_item",
+      "name_kr": "N/A",
+      "description_en": "A tall, vintage-style pink suitcase with rounded edges, featuring brown leather straps, metal buckles, and a handle. It stands upright.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "suitcase_waikiki_tour_pink_medium",
+      "category": "deco_item",
+      "name_kr": "N/A",
+      "description_en": "A medium-sized, rectangular pink hardshell suitcase, lying flat. It has 'WAIKIKI TOUR' text and small white flower decals on its surface.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "camera_vintage_silver",
+      "category": "deco_item",
+      "name_kr": "N/A",
+      "description_en": "A vintage-style camera with a silver body, black accents, and a prominent lens. It has a classic, retro design.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "reward_icon_cookie",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A small, round, light brown cookie or biscuit icon with a subtle textured surface.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "reward_icon_gold_coin_small",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A small, shiny gold coin icon, similar to the main currency coin but smaller in size.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "reward_icon_gem_small",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A small, sparkling light blue diamond icon, similar to the main currency gem but smaller in size.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "reward_icon_heart_small",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A small, soft pink heart icon, similar to the energy heart but smaller in size.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "reward_icon_gift_box",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A decorative purple gift box with a lighter purple lid, adorned with a pink ribbon and a large bow on top, indicating a special reward.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_event",
+      "category": "ui_button",
+      "name_kr": "이벤트",
+      "description_en": "A small, square light pink button with rounded corners. It has a white calendar icon with a small pink heart on it, and the text '이벤트' (Event) in white below the icon.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "button_pass",
+      "category": "ui_button",
+      "name_kr": "패스",
+      "description_en": "A small, square light pink button with rounded corners. It has a purple gift box icon (same as reward_icon_gift_box) and the text '패스' (Pass) in white below the icon.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "bottom_navigation_bar_base",
+      "category": "ui_frame",
+      "name_kr": "N/A",
+      "description_en": "A long, horizontal, slightly translucent light pink rectangular bar with soft rounded corners, forming the base for the main navigation buttons at the bottom of the screen.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "icon_nav_home_active",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A white stylized house icon decorated with small pink flowers and subtle sparkles, representing the active home navigation button.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "icon_nav_member_inactive",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A white icon depicting two simplified chibi figures (one male, one female), used for the inactive member navigation button.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "icon_nav_box_inactive",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A white icon of a simple suitcase, used for the inactive box navigation button.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "icon_nav_shop_inactive",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A white icon of a simple handbag decorated with small pink flowers, used for the inactive shop navigation button.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "icon_nav_menu_inactive",
+      "category": "icon",
+      "name_kr": "N/A",
+      "description_en": "A white hamburger menu icon (three horizontal lines), used for the inactive menu navigation button.",
+      "priority": "P1",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "text_recommended_member",
+      "category": "text",
+      "name_kr": "추천 멤버",
+      "description_en": "The Korean text '추천 멤버' in a medium-dark pink font, displayed within a decorative banner element at the top of the character info panel.",
+      "priority": "P1",
+      "bg_color": "transparent",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_waikiki_neon_sign",
+      "category": "deco_item",
+      "name_kr": "와이키키 투어 네온 사인",
+      "description_en": "A vibrant pink neon sign glowing with the cursive text 'WAIKIIIII TOUR', designed as a wall decoration.",
+      "priority": "P1",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_speech_bubble_chibi",
+      "category": "ui_frame",
+      "name_kr": "꼬마 캐릭터 말풍선",
+      "description_en": "A light pink, slightly translucent speech bubble with a dark pink border and an arrow pointing to the chibi character. Contains Korean text.",
+      "priority": "P1",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "text_speech_bubble_what_style",
+      "category": "text",
+      "name_kr": "오늘은 어떤 스타일로 꾸밀까요?",
+      "description_en": "The Korean text '오늘은 어떤 스타일로 꾸밀까요?' in a dark font, displayed within the light pink speech bubble.",
+      "priority": "P1",
+      "bg_color": "transparent",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "button_more_general",
+      "category": "ui_button",
+      "name_kr": "더보기 버튼",
+      "description_en": "A small, light pink rectangular button with rounded corners, displaying the dark pink text '더보기' and a right-pointing arrow icon.",
+      "priority": "P1",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_outfit_thumbnail_straw_hat_dress",
+      "category": "deco_item",
+      "name_kr": "밀짚모자 드레스 의상 썸네일",
+      "description_en": "A square thumbnail with a light pink dashed border, featuring a chibi model in a white lace dress, a straw hat, and holding a small handbag.",
+      "priority": "P1",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_outfit_thumbnail_sailor_uniform",
+      "category": "deco_item",
+      "name_kr": "세일러복 의상 썸네일",
+      "description_en": "A square thumbnail with a light pink dashed border, depicting a chibi model in a dark blue sailor uniform with a white collar, sailor hat, and black shoes.",
+      "priority": "P1",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_outfit_thumbnail_bunny_hoodie",
+      "category": "deco_item",
+      "name_kr": "토끼 후드티 의상 썸네일",
+      "description_en": "A square thumbnail with a light pink dashed border, showing a chibi model wearing a white bunny-ear hoodie over a pink outfit, with a smiling expression.",
+      "priority": "P1",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_outfit_thumbnail_black_gothic_outfit",
+      "category": "deco_item",
+      "name_kr": "블랙 고딕 의상 썸네일",
+      "description_en": "A square thumbnail with a light pink dashed border, illustrating a chibi model in a black gothic-style outfit with a skirt, boots, and intricate details.",
+      "priority": "P1",
+      "bg_color": "#FFFFFF",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "icon_cherry_blossom_bottom_bar",
+      "category": "icon",
+      "name_kr": "하단 바 벚꽃 아이콘",
+      "description_en": "A small, stylized pink cherry blossom icon with a glitter effect, used as a decorative element on UI buttons or frames in the bottom section.",
+      "priority": "P1",
+      "bg_color": "#FDF1F5",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_waikiki_suitcase",
+      "category": "deco_item",
+      "name_kr": "와이키키 투어 여행 가방",
+      "description_en": "A vintage-style pink suitcase adorned with 'WAIKIIIII TOUR' text and various travel stickers, located within the room background.",
+      "priority": "P1",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "deco_item_octopus_plushie",
+      "category": "deco_item",
+      "name_kr": "문어 인형",
+      "description_en": "A cute, soft pink octopus plush toy with smiling eyes, positioned on a chair next to the bed in the room background.",
+      "priority": "P1",
+      "bg_color": "#F8F3F6",
+      "source_file": "pasted-image-2026-04-30T02-54-29-569Z.png"
+    },
+    {
+      "id": "ui_speech_bubble_sui",
+      "category": "ui_frame",
+      "name_kr": "수이 말풍선",
+      "description_en": "A light pink, rounded rectangular speech bubble with a small pointed tail directed towards the chibi character. It contains the Korean text '기념품을 모아 볼까요?' (Shall we collect souvenirs?) and is decorated with small pink hibiscus flowers.",
+      "priority": "P1",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_name_tag_sui",
+      "category": "ui_frame",
+      "name_kr": "수이 이름표",
+      "description_en": "A light pink, rounded rectangular name tag with a white outline. It displays the Korean name '수이' (Sui) in a dark pink stylized font, flanked by small white heart icons.",
+      "priority": "P1",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_frame_travel_points",
+      "category": "ui_frame",
+      "name_kr": "여행 포인트 프레임",
+      "description_en": "A rectangular light pink frame containing a horizontal progress bar. The title '여행 포인트' (Travel Points) is at the top, and the progress '250 / 500' is displayed, with a small pink suitcase icon integrated into the bar.",
+      "priority": "P1",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_icon_travel_points_suitcase",
+      "category": "icon",
+      "name_kr": "여행 포인트 가방 아이콘",
+      "description_en": "A small, light pink vintage-style suitcase icon with a white outline and a tiny floral detail, used within a progress bar.",
+      "priority": "P1",
+      "bg_color": "#E2D3E4",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "ui_frame_booster_bottom_bar",
+      "category": "ui_frame",
+      "name_kr": "하단 부스터 바 프레임",
+      "description_en": "A long, rounded rectangular frame with a dotted pink outline, serving as a bottom bar. It contains four booster activation buttons and a text prompt '부스터를 사용해 보세요!' (Try using boosters!).",
+      "priority": "P1",
+      "bg_color": "#F8E8F5",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "deco_item_camera_pink",
+      "category": "deco_item",
+      "name_kr": "핑크 카메라",
+      "description_en": "A vintage-style pink camera with a white lens, viewfinder, and strap. 'WAIIIIKII TOUR' is written on the strap.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "deco_item_postcard_waikiki_tour",
+      "category": "deco_item",
+      "name_kr": "와이키키 투어 엽서",
+      "description_en": "A rectangular postcard with a light blue and orange sunset beach scene, featuring palm trees and ocean. It includes a small camera icon and 'WAIIIIKII TOUR' text.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_text_card_no_0007_stars",
+      "category": "ui_frame",
+      "name_kr": "카드 번호 및 별표",
+      "description_en": "The text 'NO. 0007' followed by three small red stars, indicating rarity or rating.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_logo_sui_signature_summer",
+      "category": "deco_item",
+      "name_kr": "수이 시그니처 로고",
+      "description_en": "A stylized 'Sui' text logo, incorporating a small palm tree icon and a heart symbol, in a handwritten script style.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "deco_item_waikiki_ticket_stub",
+      "category": "deco_item",
+      "name_kr": "와이키키 투어 티켓 조각",
+      "description_en": "A pink rectangular ticket stub with a perforated left edge and vertical stripe patterns, featuring 'WAIIIIKII TOUR' text.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "deco_item_waikiki_tour_seal",
+      "category": "deco_item",
+      "name_kr": "와이키키 투어 금색 도장",
+      "description_en": "A circular gold seal with a raised palm tree design and 'WAIIIIKII TOUR' text embossed around its edge.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_nameplate_kiya_seashell",
+      "category": "ui_frame",
+      "name_kr": "키야 이름표 (조개)",
+      "description_en": "A light blue seashell-shaped nameplate with white text '키야'.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_nameplate_jiyu_star",
+      "category": "ui_frame",
+      "name_kr": "지유 이름표 (별)",
+      "description_en": "A light pink star-shaped nameplate with white text '지유'.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_nameplate_sui_seashell",
+      "category": "ui_frame",
+      "name_kr": "수이 이름표 (조개)",
+      "description_en": "A pink seashell-shaped nameplate with white text '수이'.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_nameplate_haeum_flower",
+      "category": "ui_frame",
+      "name_kr": "하음 이름표 (꽃)",
+      "description_en": "An orange flower-shaped nameplate with white text '하음'.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "ui_nameplate_isul_seashell",
+      "category": "ui_frame",
+      "name_kr": "이슬 이름표 (조개)",
+      "description_en": "A light blue seashell-shaped nameplate with white text '이슬'.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "deco_item_good_vibes_only_sticker",
+      "category": "deco_item",
+      "name_kr": "굿 바이브 온리 스티커",
+      "description_en": "A white, irregularly shaped, hand-drawn style sticker with 'Good Vibes Only' text and a small pink heart. It is accompanied by small pink flower decorations around its edges.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "icon_paper_airplane",
+      "category": "icon",
+      "name_kr": "종이 비행기 아이콘",
+      "description_en": "A small, white, stylized paper airplane icon, indicating travel or sending.",
+      "priority": "P1",
+      "bg_color": "#eb999e",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "icon_cards_on_button",
+      "category": "icon",
+      "name_kr": "버튼 위 카드 아이콘",
+      "description_en": "Two overlapping white card icons, indicating a stack or set of cards.",
+      "priority": "P1",
+      "bg_color": "#eb999e",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "deco_item_waikiki_boarding_pass",
+      "category": "deco_item",
+      "name_kr": "와이키키 투어 탑승권",
+      "description_en": "A pink boarding pass with 'WAIIIIKII TOUR', 'BOARDING PASS', 'LET'S GO!' text, and a small QR code. It has a slightly distressed paper texture.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "deco_item_seashell_white",
+      "category": "deco_item",
+      "name_kr": "하얀 조개 장식",
+      "description_en": "A single white, ribbed seashell decoration with a slightly pearlescent finish.",
+      "priority": "P1",
+      "bg_color": "#f7e8e5",
+      "source_file": "pasted-image-2026-04-30T02-54-42-552Z.png"
+    },
+    {
+      "id": "deco_camera_classic",
+      "category": "deco_item",
+      "name_kr": "클래식 카메라",
+      "description_en": "A vintage-style camera icon with a grey body, black lens, and silver accents, suggesting an old film camera.",
+      "priority": "P1",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "icon_map_pin",
+      "category": "icon",
+      "name_kr": "지도 핀 아이콘",
+      "description_en": "A stylized red map pin icon with a circular base, typically used for location markers.",
+      "priority": "P1",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "icon_heart_pink",
+      "category": "icon",
+      "name_kr": "핑크 하트 아이콘",
+      "description_en": "A small, soft pink heart icon, often used for 'like' or 'love'.",
+      "priority": "P1",
+      "bg_color": "various",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "icon_star_yellow",
+      "category": "icon",
+      "name_kr": "노란 별 아이콘",
+      "description_en": "A small, four-pointed yellow star icon.",
+      "priority": "P1",
+      "bg_color": "various",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "icon_airplane_path",
+      "category": "icon",
+      "name_kr": "비행기 경로 아이콘",
+      "description_en": "A small white airplane icon with a dotted line trailing behind it, symbolizing a flight path across the sky.",
+      "priority": "P1",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "icon_palm_tree_silhouette",
+      "category": "icon",
+      "name_kr": "야자수 실루엣 아이콘",
+      "description_en": "A simple, dark green silhouette icon of a palm tree.",
+      "priority": "P1",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_ticket_love_cheer",
+      "category": "deco_item",
+      "name_kr": "사랑과 응원 티켓",
+      "description_en": "A light blue concert or event ticket, partially torn at the right edge, with 'LOVE & CHEER', 'FANMEET', and 'ADMIT ONE' text. A small pink heart is printed on it.",
+      "priority": "P1",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_ticket_good_times",
+      "category": "deco_item",
+      "name_kr": "좋은 시간 티켓",
+      "description_en": "A light pink ticket, partially torn at the left edge, with 'GOOD TIMES TOGETHER' text and three small heart icons below it.",
+      "priority": "P1",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_polaroid_beach_cityscape",
+      "category": "deco_item",
+      "name_kr": "해변 도시 풍경 폴라로이드",
+      "description_en": "A white polaroid photo frame containing a picture of a sunny beach cityscape with buildings, palm trees, and clear blue water.",
+      "priority": "P1",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_sign_waikiikii_island",
+      "category": "deco_item",
+      "name_kr": "와이키키 아일랜드 표지판",
+      "description_en": "A light blue, circular, slightly distressed sign with a pink border, featuring 'WAIKIIKIII ISLAND' text and a palm tree icon in the center.",
+      "priority": "P1",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_sign_best_day_ever",
+      "category": "deco_item",
+      "name_kr": "최고의 날 표지판",
+      "description_en": "A small, stylized white rectangular sign with a wavy top edge, featuring the text 'Best Day!' in purple script, with a small pink heart.",
+      "priority": "P1",
+      "bg_color": "sky_blue_and_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "deco_sign_here_for_you",
+      "category": "deco_item",
+      "name_kr": "널 위해 여기 있어 표지판",
+      "description_en": "A pink heart-shaped speech bubble or sign with a white border, featuring the text 'Here for you!' in white.",
+      "priority": "P1",
+      "bg_color": "sky_blue",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    },
+    {
+      "id": "ui_document_icon_button",
+      "category": "ui_button",
+      "name_kr": "문서 아이콘 버튼",
+      "description_en": "White square button with rounded corners and a brown-lined document icon with text inside. Features a subtle pink shadow.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_home_icon_button",
+      "category": "ui_button",
+      "name_kr": "홈 아이콘 버튼",
+      "description_en": "White square button with rounded corners and a brown-lined home icon. Features a subtle pink shadow.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_episode_progress_segment_locked",
+      "category": "ui_button",
+      "name_kr": "에피소드 진행 바 잠금 세그먼트",
+      "description_en": "A light peach-colored, rounded rectangular segment from an episode progress bar, labeled 'EP.XX [Episode Title]' in brown text and featuring a grey lock icon, indicating it's unavailable.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_lock_grey",
+      "category": "icon",
+      "name_kr": "회색 잠금 아이콘",
+      "description_en": "A small, simple grey padlock icon, used to indicate locked content.",
+      "priority": "P1",
+      "bg_color": "rgb(230, 200, 180)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_flower_pink_small",
+      "category": "icon",
+      "name_kr": "작은 분홍색 꽃 아이콘",
+      "description_en": "A small, stylized five-petal pink flower icon, used as a decorative element or progress indicator.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "deco_item_vintage_camera",
+      "category": "deco_item",
+      "name_kr": "빈티지 카메라",
+      "description_en": "A retro-style silver and black camera with a prominent lens and a brown strap, resting on the wooden pier.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "deco_item_pink_beach_umbrella",
+      "category": "deco_item",
+      "name_kr": "분홍색 해변 우산",
+      "description_en": "A small, opened pink beach umbrella with a white patterned edge, propped up on the pier.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "deco_item_good_vibes_only_sign",
+      "category": "deco_item",
+      "name_kr": "굿 바이브스 온리 사인",
+      "description_en": "A small white card or sign with the handwritten text 'Good Vibes Only' in a relaxed, cursive font.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "deco_item_waikikii_tour_signpost",
+      "category": "deco_item",
+      "name_kr": "와이키키 투어 이정표",
+      "description_en": "A rustic wooden signpost with an arrow pointing right, displaying 'WAIKIKII TOUR' in white text, standing on the beach.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "deco_item_plumeria_cluster",
+      "category": "deco_item",
+      "name_kr": "플루메리아 꽃송이",
+      "description_en": "A small cluster of delicate pink and white plumeria flowers, typically associated with tropical settings, used as decoration on the pier.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_auto_play_toggle_button",
+      "category": "ui_button",
+      "name_kr": "자동 재생 토글 버튼",
+      "description_en": "A small, light peach-colored horizontal rounded rectangular button-like element containing the text '자동 재생' (Auto Play) and 'OFF' with a toggle switch, indicating automatic playback status.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_episode_list_item_locked",
+      "category": "ui_frame",
+      "name_kr": "에피소드 목록 아이템 (잠금)",
+      "description_en": "A rounded rectangular list item with a grey border, containing 'EP.XX [Episode Title]' in grey text, a small thumbnail preview image of a scene covered by a translucent grey overlay, and '잠금' (Locked) status text with a grey padlock icon. The background is white.",
+      "priority": "P1",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "merge_tile_ep02_thumbnail_resort_explore",
+      "category": "merge_tile",
+      "name_kr": "EP.02 리조트 탐험 썸네일 타일",
+      "description_en": "A small, rounded rectangular thumbnail image depicting a resort area with lush greenery and a building, partially obscured by a lock icon's overlay, representing Episode 02.",
+      "priority": "P1",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "merge_tile_ep03_thumbnail_secret_beach",
+      "category": "merge_tile",
+      "name_kr": "EP.03 비밀의 해변 썸네일 타일",
+      "description_en": "A small, rounded rectangular thumbnail image depicting a secluded beach scene with a small hut and calm waters, partially obscured by a lock icon's overlay, representing Episode 03.",
+      "priority": "P1",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "merge_tile_ep04_thumbnail_sunset_promise",
+      "category": "merge_tile",
+      "name_kr": "EP.04 노을 아래 약속 썸네일 타일",
+      "description_en": "A small, rounded rectangular thumbnail image depicting a beach or island at sunset with palm trees and a boat, partially obscured by a lock icon's overlay, representing Episode 04.",
+      "priority": "P1",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "merge_tile_ep05_thumbnail_special_memory",
+      "category": "merge_tile",
+      "name_kr": "EP.05 특별한 추억 썸네일 타일",
+      "description_en": "A small, rounded rectangular thumbnail image depicting a tropical hut or structure on an island, possibly a souvenir shop, partially obscured by a lock icon's overlay, representing Episode 05.",
+      "priority": "P1",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_button_story_collection",
+      "category": "ui_button",
+      "name_kr": "스토리 모아보기 버튼",
+      "description_en": "A light beige, rounded rectangular button with a subtle shadow, containing a pink play icon (triangle) and the Korean text '스토리 모아보기' (Story Collection).",
+      "priority": "P1",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_play_pink",
+      "category": "icon",
+      "name_kr": "분홍색 재생 아이콘",
+      "description_en": "A stylized pink triangle icon pointing right, representing a play button, used on a button.",
+      "priority": "P1",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_button_story_book",
+      "category": "ui_button",
+      "name_kr": "스토리 도감 버튼",
+      "description_en": "A light beige, rounded square button with a subtle shadow, containing a brown open book icon and the Korean text '스토리 도감' (Story Book) below it.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_open_book_brown",
+      "category": "icon",
+      "name_kr": "갈색 펼쳐진 책 아이콘",
+      "description_en": "A simple brown icon of an open book, used on the 'Story Book' button.",
+      "priority": "P1",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "ui_button_episode_rewards",
+      "category": "ui_button",
+      "name_kr": "에피소드 보상 버튼",
+      "description_en": "A light beige, rounded square button with a subtle shadow, containing a purple gift box icon and the Korean text '에피소드 보상' (Episode Rewards) below it.",
+      "priority": "P1",
+      "bg_color": "rgb(255, 220, 220)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "icon_gift_box_purple",
+      "category": "icon",
+      "name_kr": "보라색 선물 상자 아이콘",
+      "description_en": "A stylized purple gift box icon with a bow, used on the 'Episode Rewards' button.",
+      "priority": "P1",
+      "bg_color": "rgb(250, 250, 250)",
+      "source_file": "pasted-image-2026-04-30T02-54-54-747Z.png"
+    },
+    {
+      "id": "deco_circle_large_light_blue",
+      "category": "deco_item",
+      "name_kr": "큰 연하늘색 원형 장식",
+      "description_en": "A large, faint, translucent light blue circular shape, partially visible on the left side of the main background, serving as a subtle decorative element.",
+      "priority": "P2",
+      "bg_color": "#fdf5ed",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "deco_circle_large_light_pink",
+      "category": "deco_item",
+      "name_kr": "큰 연분홍색 원형 장식",
+      "description_en": "A large, faint, translucent light pink circular shape, partially visible on the right side of the main background, serving as a subtle decorative element.",
+      "priority": "P2",
+      "bg_color": "#fdf5ed",
+      "source_file": "pasted-image-2026-04-29T09-45-20-367Z.png"
+    },
+    {
+      "id": "trait_icon_calm_star",
+      "category": "icon",
+      "name_kr": "차분함",
+      "description_en": "A small, light purple five-pointed star icon, often used to represent a character trait like 'calm'.",
+      "priority": "P2",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "trait_icon_refreshing_heart",
+      "category": "icon",
+      "name_kr": "상큼함",
+      "description_en": "A small, light pink heart icon, often used to represent a character trait like 'refreshing' or 'lively'.",
+      "priority": "P2",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "trait_icon_kind_heart",
+      "category": "icon",
+      "name_kr": "다정함",
+      "description_en": "A small, yellow heart icon, often used to represent a character trait like 'kindness' or 'affectionate'.",
+      "priority": "P2",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "trait_icon_trendy_diamond",
+      "category": "icon",
+      "name_kr": "트렌디",
+      "description_en": "A small, light blue diamond icon, often used to represent a character trait like 'trendy' or 'fashionable'.",
+      "priority": "P2",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "decoration_heart_pink",
+      "category": "deco_item",
+      "name_kr": "N/A",
+      "description_en": "A small, soft pastel pink heart, used as a decorative accent.",
+      "priority": "P2",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "decoration_seashell_pink",
+      "category": "deco_item",
+      "name_kr": "N/A",
+      "description_en": "A small, soft pastel pink conch seashell, used as a decorative accent.",
+      "priority": "P2",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "decoration_flower_small_pink",
+      "category": "deco_item",
+      "name_kr": "N/A",
+      "description_en": "A small cluster of delicate light pink plumeria-like flowers with small green leaves, used as a decorative accent.",
+      "priority": "P2",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "glass_dome_glowing",
+      "category": "deco_item",
+      "name_kr": "N/A",
+      "description_en": "A small, clear glass dome or miniature snowglobe with a round base, featuring a subtle inner glow. It might contain a miniature scene but is semi-transparent.",
+      "priority": "P2",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "decoration_plumeria_flowers_ground",
+      "category": "deco_item",
+      "name_kr": "N/A",
+      "description_en": "Scattered loose white and pink plumeria flowers with green leaves, lying on a wooden floor or path.",
+      "priority": "P2",
+      "bg_color": "#F8E7DB",
+      "source_file": "pasted-image-2026-04-30T02-54-22-889Z.png"
+    },
+    {
+      "id": "deco_item_pink_suitcase",
+      "category": "deco_item",
+      "name_kr": "분홍색 여행 가방",
+      "description_en": "A decorative, large pink vintage-style suitcase with white trim, a brown handle, and the 'WAIKIIKII TOUR' logo. It is adorned with small flowers and a seashell.",
+      "priority": "P2",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "deco_item_silver_camera",
+      "category": "deco_item",
+      "name_kr": "은색 카메라",
+      "description_en": "A decorative, vintage-style silver camera with a black lens and strap, embellished with a small star and a flower.",
+      "priority": "P2",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "deco_item_bottom_left_shells_flowers",
+      "category": "deco_item",
+      "name_kr": "왼쪽 아래 조개와 꽃",
+      "description_en": "A small cluster of white seashells and pink hibiscus flowers, arranged as a foreground decorative element.",
+      "priority": "P2",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "deco_item_coconut_drink_bottom",
+      "category": "deco_item",
+      "name_kr": "오른쪽 아래 코코넛 음료",
+      "description_en": "A large, teal-colored coconut drink container with a pink umbrella and a hibiscus flower, serving as a foreground decorative element on the right.",
+      "priority": "P2",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "deco_item_postcard_waikikiii",
+      "category": "deco_item",
+      "name_kr": "와이키키 엽서",
+      "description_en": "A rectangular postcard with 'WAIKIIKII TOUR' at the top, featuring a scenic tropical beach sunset with palm trees. A small starfish is placed on its corner, serving as a decorative element.",
+      "priority": "P2",
+      "bg_color": "#FFDDC8",
+      "source_file": "pasted-image-2026-04-30T02-54-35-757Z.png"
+    },
+    {
+      "id": "deco_water_shards",
+      "category": "deco_item",
+      "name_kr": "물 조각",
+      "description_en": "Irregularly shaped, translucent blue crystalline shards or water droplet shapes, scattered on the platform.",
+      "priority": "P2",
+      "bg_color": "light_purple_platform",
+      "source_file": "pasted-image-2026-04-30T02-54-48-223Z.png"
+    }
+  ]
+}

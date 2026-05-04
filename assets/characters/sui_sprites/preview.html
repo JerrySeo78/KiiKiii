@@ -2,20 +2,32 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>Sui 스프라이트 애니메이션 테스트</title>
+<title>캐릭터 스프라이트 프리뷰</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: #f5f0eb;
-    font-family: 'Segoe UI', sans-serif;
-    padding: 24px;
+  body { background: #f5f0eb; font-family: 'Segoe UI', sans-serif; padding: 24px; }
+
+  h1 { text-align: center; color: #333; font-size: 20px; margin-bottom: 16px; }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
   }
-  h1 {
-    text-align: center;
-    color: #333;
-    font-size: 20px;
-    margin-bottom: 8px;
+  .tab {
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: 1.5px solid #ddd;
+    cursor: pointer;
+    background: white;
+    font-size: 14px;
+    color: #888;
+    transition: all 0.15s;
   }
+  .tab:hover { border-color: #e87d7d; color: #e87d7d; }
+  .tab.active { background: #e87d7d; border-color: #e87d7d; color: white; font-weight: 600; }
+
   .controls {
     display: flex;
     align-items: center;
@@ -33,21 +45,11 @@
     cursor: pointer;
     background: white;
   }
-  h2 {
-    font-size: 13px;
-    color: #999;
-    text-align: center;
-    margin-bottom: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
+
+  h2 { font-size: 13px; color: #999; text-align: center; margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase; }
   .section { margin-bottom: 32px; }
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
+  .grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+
   .card {
     background: white;
     border-radius: 16px;
@@ -71,31 +73,22 @@
     align-items: center;
     justify-content: center;
   }
-  .badge {
-    font-size: 11px;
-    border-radius: 20px;
-    padding: 2px 10px;
-  }
+  .badge { font-size: 11px; border-radius: 20px; padding: 2px 10px; }
   .badge-2f { background: #e5f0ff; color: #4a7ec0; }
   .badge-3f { background: #ffe5e5; color: #c0605a; }
-  .sheet-thumb {
-    width: 100%;
-    object-fit: contain;
-    border: 1px solid #eee;
-    border-radius: 4px;
-    background: white;
-  }
+  .sheet-thumb { width: 100%; object-fit: contain; border: 1px solid #eee; border-radius: 4px; background: white; }
   .sheet-label { font-size: 10px; color: #aaa; text-align: center; margin-top: 2px; }
-  .divider {
-    border: none;
-    border-top: 1px solid #e0d8d0;
-    margin: 8px 0 24px;
-  }
+  .divider { border: none; border-top: 1px solid #e0d8d0; margin: 8px 0 24px; }
+
+  .char-panel { display: none; }
+  .char-panel.active { display: block; }
 </style>
 </head>
 <body>
 
-<h1>🎭 Sui 스프라이트 애니메이션 프리뷰</h1>
+<h1>🎭 캐릭터 스프라이트 프리뷰</h1>
+
+<div class="tabs" id="tabs"></div>
 
 <div class="controls">
   <label>FPS: <span id="fps-val">8</span></label>
@@ -103,34 +96,55 @@
   <button onclick="toggleAll()">⏸ 일시정지</button>
 </div>
 
-<div class="section">
-  <h2>3 프레임</h2>
-  <div class="grid" id="grid-3f"></div>
-</div>
-
-<hr class="divider">
-
-<div class="section">
-  <h2>2 프레임</h2>
-  <div class="grid" id="grid-2f"></div>
-</div>
+<div id="panels"></div>
 
 <script>
-const ANIMS_3F = [
-  { id: 'idle',         name: '아이들',          file: 'sui_idle_3f.png',         frames: 3 },
-  { id: 'walk_front',   name: '앞으로 걸어오기',  file: 'sui_walk_front_3f.png',   frames: 3 },
-  { id: 'back_idle',    name: '뒷모습 서있기',    file: 'sui_back_idle_3f.png',    frames: 3 },
-  { id: 'back_walk_up', name: '뒷모습 위로 걷기', file: 'sui_back_walk_up_3f.png', frames: 3 },
-  { id: 'walk_side',    name: '옆으로 걷기',       file: 'sui_walk_side_3f.png',    frames: 3 },
-  { id: 'surprised',   name: '깜짝 놀람',         file: 'sui_surprised_3f.png',    frames: 3 },
-]
+const ANIM_NAMES = {
+  idle:         '아이들',
+  walk_front:   '앞으로 걸어오기',
+  back_idle:    '뒷모습 서있기',
+  back_walk_up: '뒷모습 위로 걷기',
+  walk_side:    '옆으로 걷기',
+  surprised:    '깜짝 놀람',
+  drag:         '드래그 버둥거림',
+}
 
-const ANIMS_2F = [
-  { id: 'idle',         name: '아이들',          file: 'sui_idle_2f.png',         frames: 2 },
-  { id: 'walk_front',   name: '앞으로 걸어오기',  file: 'sui_walk_front_2f.png',   frames: 2 },
-  { id: 'back_idle',    name: '뒷모습 서있기',    file: 'sui_back_idle_2f.png',    frames: 2 },
-  { id: 'back_walk_up', name: '뒷모습 위로 걷기', file: 'sui_back_walk_up_2f.png', frames: 2 },
-  { id: 'surprised',    name: '깜짝 놀람',        file: 'sui_surprised_2f.png',    frames: 2 },
+const CHARACTERS = [
+  {
+    id: 'sui',
+    name: 'Sui',
+    dir: '',
+    anims3f: ['idle','walk_front','back_idle','back_walk_up','walk_side','surprised','drag'],
+    anims2f: ['idle','walk_front','back_idle','back_walk_up','surprised'],
+  },
+  {
+    id: 'haum',
+    name: 'Haum',
+    dir: '../haum_sprites/',
+    anims3f: ['idle','walk_front','back_idle','back_walk_up','walk_side','surprised','drag'],
+    anims2f: ['idle','walk_front','back_idle','back_walk_up','surprised'],
+  },
+  {
+    id: 'jiyu',
+    name: 'Jiyu',
+    dir: '../jiyu_sprites/',
+    anims3f: ['idle','walk_front','back_idle','back_walk_up','walk_side','surprised','drag'],
+    anims2f: ['idle','walk_front','back_idle','back_walk_up','surprised'],
+  },
+  {
+    id: 'kya',
+    name: 'Kya',
+    dir: '../kya_sprites/',
+    anims3f: ['idle','walk_front','back_idle','back_walk_up','walk_side','surprised','drag'],
+    anims2f: ['idle','walk_front','back_idle','back_walk_up','surprised'],
+  },
+  {
+    id: 'leesol',
+    name: 'Leesol',
+    dir: '../leesol_sprites/',
+    anims3f: ['idle','walk_front','back_idle','back_walk_up','walk_side','surprised','drag'],
+    anims2f: ['idle','walk_front','back_idle','back_walk_up','surprised'],
+  },
 ]
 
 let fps = 8
@@ -138,7 +152,7 @@ let paused = false
 
 function toggleAll() {
   paused = !paused
-  document.querySelector('button').textContent = paused ? '▶ 재생' : '⏸ 일시정지'
+  document.querySelector('.controls button').textContent = paused ? '▶ 재생' : '⏸ 일시정지'
 }
 
 document.getElementById('fps').addEventListener('input', e => {
@@ -146,12 +160,14 @@ document.getElementById('fps').addEventListener('input', e => {
   document.getElementById('fps-val').textContent = fps
 })
 
-function buildCard(anim) {
+function buildCard(charId, dir, animId, frameCount) {
+  const file = `${dir}${charId}_${animId}_${frameCount}f.png`
+
   const card = document.createElement('div')
   card.className = 'card'
 
   const title = document.createElement('h3')
-  title.textContent = anim.name
+  title.textContent = ANIM_NAMES[animId] ?? animId
   card.appendChild(title)
 
   const frameBox = document.createElement('div')
@@ -163,47 +179,39 @@ function buildCard(anim) {
   card.appendChild(frameBox)
 
   const badge = document.createElement('div')
-  badge.className = `badge badge-${anim.frames}f`
+  badge.className = `badge badge-${frameCount}f`
   badge.textContent = '로딩 중...'
   card.appendChild(badge)
 
   const img = document.createElement('img')
   img.className = 'sheet-thumb'
-  img.src = anim.file
+  img.src = file
+  card.appendChild(img)
   const sheetLabel = document.createElement('div')
   sheetLabel.className = 'sheet-label'
   sheetLabel.textContent = '원본 시트'
-  card.appendChild(img)
   card.appendChild(sheetLabel)
 
   const image = new Image()
   image.onload = () => {
-    const frameW = image.naturalWidth / anim.frames
+    const frameW = image.naturalWidth / frameCount
     const frameH = image.naturalHeight
     const ctx = canvas.getContext('2d')
     let frame = 0
 
-    badge.textContent = `${Math.round(frameW)}×${frameH} | ${anim.frames}프레임`
+    badge.textContent = `${Math.round(frameW)}×${frameH} | ${frameCount}프레임`
 
     function draw() {
       ctx.clearRect(0, 0, 160, 160)
       const scale = Math.min(160 / frameW, 160 / frameH)
-      const dw = frameW * scale
-      const dh = frameH * scale
-      const dx = (160 - dw) / 2
-      const dy = (160 - dh) / 2
-      ctx.drawImage(image, frame * frameW, 0, frameW, frameH, dx, dy, dw, dh)
+      const dw = frameW * scale, dh = frameH * scale
+      ctx.drawImage(image, frame * frameW, 0, frameW, frameH, (160-dw)/2, (160-dh)/2, dw, dh)
     }
-
     draw()
 
     let last = 0
     function tick(ts) {
-      if (!paused && ts - last > 1000 / fps) {
-        frame = (frame + 1) % anim.frames
-        draw()
-        last = ts
-      }
+      if (!paused && ts - last > 1000 / fps) { frame = (frame + 1) % frameCount; draw(); last = ts }
       requestAnimationFrame(tick)
     }
     requestAnimationFrame(tick)
@@ -215,12 +223,66 @@ function buildCard(anim) {
     badge.style.color = '#aaa'
   }
 
-  image.src = anim.file
+  image.src = file
   return card
 }
 
-ANIMS_3F.forEach(a => document.getElementById('grid-3f').appendChild(buildCard(a)))
-ANIMS_2F.forEach(a => document.getElementById('grid-2f').appendChild(buildCard(a)))
+function buildPanel(char) {
+  const panel = document.createElement('div')
+  panel.className = 'char-panel'
+  panel.id = `panel-${char.id}`
+
+  const sec3 = document.createElement('div')
+  sec3.className = 'section'
+  sec3.innerHTML = '<h2>3 프레임</h2><div class="grid" id="grid-' + char.id + '-3f"></div>'
+  panel.appendChild(sec3)
+
+  const divider = document.createElement('hr')
+  divider.className = 'divider'
+  panel.appendChild(divider)
+
+  const sec2 = document.createElement('div')
+  sec2.className = 'section'
+  sec2.innerHTML = '<h2>2 프레임</h2><div class="grid" id="grid-' + char.id + '-2f"></div>'
+  panel.appendChild(sec2)
+
+  return panel
+}
+
+// Build tabs + panels
+const tabsEl = document.getElementById('tabs')
+const panelsEl = document.getElementById('panels')
+
+CHARACTERS.forEach((char, i) => {
+  // Tab
+  const tab = document.createElement('button')
+  tab.className = 'tab' + (i === 0 ? ' active' : '')
+  tab.textContent = char.name
+  tab.onclick = () => switchTab(char.id)
+  tabsEl.appendChild(tab)
+
+  // Panel
+  const panel = buildPanel(char)
+  if (i === 0) panel.classList.add('active')
+  panelsEl.appendChild(panel)
+
+  // Cards
+  char.anims3f.forEach(animId => {
+    document.getElementById(`grid-${char.id}-3f`).appendChild(buildCard(char.id, char.dir, animId, 3))
+  })
+  char.anims2f.forEach(animId => {
+    document.getElementById(`grid-${char.id}-2f`).appendChild(buildCard(char.id, char.dir, animId, 2))
+  })
+})
+
+function switchTab(charId) {
+  document.querySelectorAll('.tab').forEach((t, i) => {
+    t.classList.toggle('active', CHARACTERS[i].id === charId)
+  })
+  document.querySelectorAll('.char-panel').forEach(p => {
+    p.classList.toggle('active', p.id === `panel-${charId}`)
+  })
+}
 </script>
 </body>
 </html>
